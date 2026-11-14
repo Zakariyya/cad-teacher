@@ -29,15 +29,16 @@ uv pip install --python .venv/bin/python -r requirements.txt
 
 本仓库保留教学用 SVG 和计算结果，便于直接阅读；不提交虚拟环境、依赖缓存、凭据和运行日志。答案已在课堂完成后归档；后续新课仍先让学生作答，再展开答案。
 
-## 发布到 GitHub
+## GitHub 仓库
 
-在能访问 GitHub、允许写入项目 `.git` 的终端执行：
+仓库：[Zakariyya/cad-teacher](https://github.com/Zakariyya/cad-teacher)。在其他电脑获取学习资料：
 
 ```bash
-bash publish-github.sh
+git clone https://github.com/Zakariyya/cad-teacher.git
+cd cad-teacher
 ```
 
-脚本核对 GitHub 登录账号为 `Zakariyya`，创建私有仓库 `cad-teacher`，使用中文提交信息并推送。遇到已有远端或同名仓库会停止，不强推、不覆盖远端历史。
+后续使用中文提交信息，持续更新同一份学习目录、课程与进度文件。
 
 ## 验证边界
 
