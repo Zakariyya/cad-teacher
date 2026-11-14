@@ -1,0 +1,3 @@
+# Optional teaching tools; lesson-01.py itself uses the standard library only.
+matplotlib>=3.10,<4
+pint>=0.24,<1

@@ -1,0 +1,32 @@
+{
+  "basic": {
+    "Rx_N": 0,
+    "Ry_N": 10,
+    "MA_Nm": 2.0,
+    "residuals_Fx_N_Fy_N_MA_Nm": [
+      0.0,
+      0,
+      0.0
+    ]
+  },
+  "application": {
+    "Rx_N": 0,
+    "Ry_N": 20,
+    "MA_Nm": 5.0,
+    "residuals_Fx_N_Fy_N_MA_Nm": [
+      0.0,
+      0,
+      0.0
+    ]
+  },
+  "application_longer": {
+    "Rx_N": 0,
+    "Ry_N": 20,
+    "MA_Nm": 10.0,
+    "residuals_Fx_N_Fy_N_MA_Nm": [
+      0.0,
+      0,
+      0.0
+    ]
+  }
+}
