@@ -7,20 +7,22 @@
 缺少运行工具时明确未运行；不能写 GitHub 时输出待回写更新。
 图的链接供在线查看；离线时使用讲义中的对象、尺寸、方向和方程重画受力图。
 权威进度：https://github.com/Zakariyya/cad-teacher/blob/main/learning/progress.md
-源文件集合 SHA-256：a3c1d95793ae2799104b60ff7d5b10d5302e5b15b6467ef0cf656bd41cc4c744
+源文件集合 SHA-256：d35b48162fade11eea02d987d9ee0dcd87234a35e2994d0836a3cdf7f6561f67
 
 ## 内嵌源文件与 SHA-256
 - prompts/project-instructions.md: 9e7a26c101a74e5d0cfadf68bdd67be58377479997d4bc4204d05d138c636e62
 - prompts/original-request.md: 4d535be9f4d1aae136b26363083351dec3195ab48c1162de5fe98d8e3096e32b
 - prompts/resume-learning.md: 02a360bd3294a5f9ca8aae44a515339fc56751160721aa109e29ff53aad52739
-- learning/progress.md: a72d2b1bdd55eef2c24b1f20a542764b0baa8ed369454422f94044e444011168
-- curriculum/roadmap.md: 368f704f3abee280309f9568cf9625583e86b4b5a500ac71a153cb0e7d11b030
-- curriculum/lessons.json: 480876b42fe23abd8c2436caeda998fc05274a2dca079b5b3a0ad7ca32d16975
+- learning/progress.md: f3787f75ebf52755714d430b2cff44eb9c703748d45f3cd5f78bc84f5209aaec
+- curriculum/roadmap.md: 9dbcd12d7b3866c75c448ff0822870253817621a5c2d2595c9a316ab38f13f2a
+- curriculum/lessons.json: 9a80976fb1947cd278a2d1be0b3b0fd7e00633ade0ab354976b7f35543f30126
 - learning/resources.md: aa8eff0171f262007dd3edc34e61af7df7c15622ae93c7336eefd7d61dde8340
 - learning/lesson-01.md: 620de72d45b8c5585e5d954791652e930531610646fa355fe56cd156124500f8
 - learning/lesson-01-review.md: 5f4500b5ccc55a6693089773f451704ffcadedd02a9a6de77eb7c85cd7f8b400
 - learning/lesson-01.py: 934afc81dffc3bf1441b8e6410f3be9a7b082a991aadbd56c230bfa11afd7540
 - learning/lesson-01-answer-key.json: f05f1aad6604485663fe20423c2a3d68a28aa7dec3af0034543a90728549fe98
+- learning/lesson-02.md: f84ccdf0f47cadb30386dd42e8be86d00e8b553dc010f68df5e3bd1b45b0264c
+- learning/lesson-02.py: 9149b480153d3c9e01706c1d3c0915fdd79fe38e54e1caaf5e1eb605fb963d08
 - docs/teaching-standard.md: e157413e81d7690a9f74ac6c20bddead64a91c2cd65ce7a10e946eed4f92137a
 - resources/skills.md: 064e88f7e35386749944f62aa5be4b7abb7944e8674a78f3c1b61126d1e6e40a
 - resources/THIRD_PARTY_NOTICES.md: 8c6c90522dbf943913d3accb4c7a667eda3e88914391e0850f52c101ad86c8fc
@@ -126,9 +128,9 @@
 
 # 学习进度
 
-最后更新：2026-11-14。
+最后更新：2026-11-16。
 
-本文件是个人学习状态的唯一入口。网页上传包是它的快照；原始需求见 [最初提示词](https://github.com/Zakariyya/cad-teacher/blob/main/prompts/original-request.md)，长期路线见 [课程路线](https://github.com/Zakariyya/cad-teacher/blob/main/curriculum/roadmap.md)。本次仓库结构升级不改变教学进度。
+本文件是个人学习状态的唯一入口。网页上传包是本文件的快照；原始需求见 [最初提示词](https://github.com/Zakariyya/cad-teacher/blob/main/prompts/original-request.md)，长期路线见 [课程路线](https://github.com/Zakariyya/cad-teacher/blob/main/curriculum/roadmap.md)。
 
 ## 学习者与目标
 
@@ -141,20 +143,18 @@
 | 单元 | 状态 | 证据 |
 | --- | --- | --- |
 | 01 力、力矩、固定支撑反力与受力分析 | 已完成本单元讲解、两题作答与概念追问 | [作答与反馈](https://github.com/Zakariyya/cad-teacher/blob/main/learning/lesson-01-review.md) |
-| 02 支架自重与重心 | 尚未开始 | 下一次从物理意义与均匀直杆开始 |
-| 后续阶段 | 尚未开始 | [学习目录](https://github.com/Zakariyya/cad-teacher/blob/main/learning/README.md) |
+| 02 支架自重与重心 | **已发布讲义和公开计算示例；两题待作答，尚未判定掌握** | [讲义](https://github.com/Zakariyya/cad-teacher/blob/main/learning/lesson-02.md) · [验证记录](https://github.com/Zakariyya/cad-teacher/blob/main/learning/lesson-02-verification.md) |
+| 03 多载荷平衡及后续阶段 | 尚未开始 | [课程路线](https://github.com/Zakariyya/cad-teacher/blob/main/curriculum/roadmap.md) |
 
 ## 下次如何继续
 
-从单元 02 开始：在已会计算末端载荷力矩的基础上，引入支架自身的重量，解释均匀直杆的重心为何在中点，再学习多个载荷的力矩相加。
+直接学习 [第 02 课](https://github.com/Zakariyya/cad-teacher/blob/main/learning/lesson-02.md) 并回答一题基础、一题工程应用；需要讲解时先从质量、重力、重心物理意义开始，先方向再公式。作答后保留学生原答，逐项反馈数值、单位、方向、力臂、假设与物理解释，才讨论是否进入第 03 课。**不提前公开两道题的解析或答案。**
 
-每次只教一个知识单元。使用已有 Skills 的 references/scripts/examples；先讲物理意义，再讲公式单位。每节一题基础、一题工程应用，等待学生回答后检查过程；不要预先给答案。结束时说明本课作用和下一课前置知识。
+持续巩固：第一课曾把“向下的 10 N”称为力矩；新题重点检查质量 kg、重力 N、力矩 N·m，反力方向和反力矩方向。
 
-持续注意：学生最初把“向下的 10 N”称为力矩；后续已能指出固定端的逆时针反力矩。应在新题中继续检查单位与方向，不必重复整节第一课。
+## 验证与边界
 
-## 已有验证与边界
-
-第 01 单元 Python 静力平衡核算已运行，示例与练习残差均为零。只完成理想模型的计算验证；尚未进行 CAD 几何、有限元仿真或实物验证。
+第一课的 Python 静力核算已运行；第二课公开示例也已运行，平衡残差为零，做了分段自重力矩与零质量极限核对。两课均不代表真实 CAD、FEA 或实物验证。
 
 ---
 
@@ -162,7 +162,7 @@
 
 # 从基础到独立机器人开发的课程路线
 
-这是逐课编写的培养路线，不是已完成的教材。当前个人状态只在 [学习进度](https://github.com/Zakariyya/cad-teacher/blob/main/learning/progress.md) 维护；第一课以外的单元尚未编写。一个条目可按学习反馈拆成多个小课，数学在需要时补齐。
+这是逐课编写的培养路线，不是已完成的教材。当前个人状态只在 [学习进度](https://github.com/Zakariyya/cad-teacher/blob/main/learning/progress.md) 维护；第一课已完成，第二课讲义已发布待练习，其余单元尚未编写。一个条目可按学习反馈拆成多个小课，数学在需要时补齐。
 
 | 阶段 | 知识单元（按顺序） | 机器人任务 | 阶段能力检查 |
 | --- | --- | --- | --- |
@@ -211,6 +211,13 @@
       "feedback": "learning/lesson-01-review.md",
       "solution_script": "learning/lesson-01.py",
       "answer_key": "learning/lesson-01-answer-key.json"
+    },
+    {
+      "id": "02",
+      "title": "支架自重与重心",
+      "lesson": "learning/lesson-02.md",
+      "feedback_published": false,
+      "example_script": "learning/lesson-02.py"
     }
   ]
 }
@@ -492,6 +499,187 @@ print('SVG saved; this standard-library script does not render PNG. Not FEA.')
     ]
   }
 }
+````
+
+---
+
+## 源文件：learning/lesson-02.md
+
+# 第 02 单元：支架自重与重心
+
+状态：**讲义与示例已发布，练习待作答**（2026-11-16），不能据此判定已掌握。
+
+## 学习目标与前置知识
+
+承接 [第一课](https://github.com/Zakariyya/cad-teacher/blob/main/learning/lesson-01.md) 的重力 `W=mg`、力矩 `M=Fd⊥` 和固定端平衡。学完应能区分质量（kg）、重力（N）、力矩（N·m），解释均匀杆重心在中点，计算含自重的支撑反力与反力矩，并正确标注方向。
+
+## 1. 支架为什么会自己产生力矩？
+
+工业机器人上的水平相机支架，即使没安装相机，支架自身也会受到向下的重力。只要重力的作用线与固定端 A 有水平距离，重力就会使支架产生顺时针转动趋势。
+
+在本课近似**均匀重力场**中，刚体的重力可以等效集中作用在一个位置——**重心 G**；此时重心与质量中心重合。重心是位置，不是额外的一股力。
+
+对**等截面且材料密度均匀**的直杆，左右两半关于中点对称，左右各小块质量在中点两侧的力矩相互抵消，所以 `x_G=L/2`。有缺口、凸台或质量偏置的真实支架，不能直接套用这一结论。
+
+## 2. 工程对象、已知、假设与受力图
+
+示例：左端 A 固定的水平相机支架，支架自身质量 `m_b=0.6 kg`，长度 `L=0.30 m`，末端相机质量 `m_c=2.0 kg`，其重心距 A 水平距离 `x_c=0.30 m`。教学近似 `g=10 m/s²`。
+
+假设：支架均匀、足够刚、静止，连接为理想固定支撑；只看平面受力，忽略附件质量、弹性、加速度、振动和冲击。**研究对象仅为支架**，相机对它施加向下的力。
+
+正方向：向右为 +x，向上为 +y，**逆时针力矩为正**。
+
+![支架自重与重心的受力图](https://github.com/Zakariyya/cad-teacher/blob/main/learning/lesson-02-fbd.svg)
+
+受力图按仓库 [mechanics-visuals 规范](https://github.com/Zakariyya/cad-teacher/blob/main/resources/vendor/baratilab/skills/mechanics-visuals/references/fbd_style.md) 绘制：灰色表示支架，红色是两股向下的外载，蓝色是固定端反力；标明 G 和尺寸。
+
+## 3. 示例计算：重量、重心、力臂
+
+先把质量换成重力，再选 A 点计算力矩。由于本例杆水平、重力竖直，重力作用线到 A 的垂直距离就是对应水平位置。
+
+```text
+支架重心位置：x_G = L/2 = 0.15 m
+支架自重：    W_b = m_b × g = 0.6 × 10 = 6 N（向下）
+相机重量：    W_c = m_c × g = 2.0 × 10 = 20 N（向下）
+
+支架自重力矩：M_b = 6 × 0.15 = 0.9 N·m（顺时针）
+相机重力力矩：M_c = 20 × 0.30 = 6 N·m（顺时针）
+```
+
+不能把支架自重既作为分布载荷又作为集中力重复加入；用集中力 `W_b` 是在**本例静力平衡**中把分布重力等效到重心。
+
+## 4. 固定端如何保持静止？
+
+```text
+ΣF_x = A_x = 0
+ΣF_y = A_y - 6 - 20 = 0
+       A_y = 26 N（向上）
+
+ΣM_A = M_A - 6×0.15 - 20×0.30 = 0
+       M_A = 6.9 N·m（逆时针）
+```
+
+第一课忽略自重时，`A_y=20 N`、`M_A=6 N·m`。加上支架自重后反力增加 6 N，反力矩增加 0.9 N·m，也就是多出 15%。**向下的是重力，不是力矩；力矩应该描述顺时针或逆时针。**
+
+[示例计算脚本](https://github.com/Zakariyya/cad-teacher/blob/main/learning/lesson-02.py) 使用 Python 标准库，检查平衡残差、无自重极限，并用 1000 个微小杆段独立核对自重力矩。[验证记录](https://github.com/Zakariyya/cad-teacher/blob/main/learning/lesson-02-verification.md)。脚本**只计算上述公开示例，不包含练习答案**。
+
+## 5. 与实际 CAD 支架的关系
+
+你之前设计过含底板、凸台和孔的 `bracket_v2.py`。这种非均匀形状可能有偏心重心；真实质量和重心需要最终几何与材料密度数据，不能直接套用 `L/2`。多部分可用：
+
+```text
+m_i = ρ_i × V_i
+x_G = (Σ m_i × x_i) / (Σ m_i)
+```
+
+其中密度 `ρ_i` 单位 kg/m³，体积 `V_i` 单位 m³，质量 `m_i` 单位 kg。孔是从实体中减去的体积。对 CAD 布尔后几何，应从最终实体求质量属性，避免重复计数。**本课没有读取或计算真实 bracket_v2 的质量属性**，也不能据此证明结构强度、刚度或装配可靠性。
+
+## 6. 练习：请先自己作答
+
+### 基础题：不带相机的均匀支架
+
+水平直杆左端 A 固定，`L=0.40 m`、质量 `m=0.8 kg`，无其他载荷，`g=10 m/s²`，杆静止。
+
+1. 求自重（N，方向）与重心距 A 的距离（m）；解释重心为何在这里。
+2. 求 A 的竖直反力和反力矩，注明单位与方向，并写出 `ΣF_y`、`ΣM_A`。
+
+### 工程应用题：相机并非安装在末端
+
+均匀水平支架长 `0.40 m`、自身质量 `0.6 kg`，相机质量 `1.5 kg`，其重心距固定端 A 的**水平距离**为 `0.35 m`，`g=10 m/s²`。系统静止，忽略其他附件。
+
+1. 求支架自重、相机重量和支架重心位置。
+2. 求 A 的竖直反力与反力矩；**忽略支架自重会少算多少反力矩**？
+3. 如果相机向 A 移动，使其位置变为 `x_c=0.20 m`，竖直反力、反力矩各如何变化？说明原因。
+
+请列出公式、数值、单位和方向。两题尚未作答，讲义、脚本和上传学习包中**均不发布题目解析或答案**。
+
+## 本课作用、边界与下一课
+
+这为机械臂连杆自重、末端工具负载、固定端初步选型建立物理直觉。下一课「03 多载荷平衡」再推广到更多外力和位置。本课仅是**理想刚体的静力估算**；不涉及 CAD 几何验收、FEA、材料强度或实物验证。
+
+## 资源来源
+
+- [mechanics-visuals 固定版本](https://github.com/BaratiLab/mechanical-engineering-skills/blob/119b1a946e2ea43784f5d045057b59757a1a7dd1/skills/mechanics-visuals/SKILL.md)，已读 [FBD 图示规范](https://github.com/Zakariyya/cad-teacher/blob/main/resources/vendor/baratilab/skills/mechanics-visuals/references/fbd_style.md)。本图为原创 SVG，未调用上游绘图程序。
+- [worked-problem-generator 固定版本](https://github.com/BaratiLab/mechanical-engineering-skills/blob/119b1a946e2ea43784f5d045057b59757a1a7dd1/skills/worked-problem-generator/SKILL.md)，已读 [习题模板](https://github.com/Zakariyya/cad-teacher/blob/main/resources/vendor/baratilab/skills/worked-problem-generator/references/problem_template.md)，据此编排情景、已知与问题，不提前公开题解。
+
+---
+
+## 源文件：learning/lesson-02.py
+
+````python
+"""Lesson 02 teaching example: uniform horizontal bracket self-weight.
+
+All inputs use SI units: kg, m, m/s^2. Outputs: N, N*m.
+This script contains ONLY the published example, not exercise answers.
+Ideal static rigid cantilever; no CAD, FEA, or physical verification.
+"""
+
+import json
+from math import isclose
+
+
+def bracket_example(bracket_mass_kg, length_m, camera_mass_kg, camera_x_m, g_m_s2=10.0):
+    """Return the uniform-bracket center of mass and fixed support reactions."""
+    if bracket_mass_kg < 0 or camera_mass_kg < 0 or length_m <= 0:
+        raise ValueError('Masses must be nonnegative and length must be positive')
+    if not 0 <= camera_x_m <= length_m or g_m_s2 <= 0:
+        raise ValueError('Camera must lie on the bracket and g must be positive')
+
+    bracket_cg_x_m = length_m / 2
+    bracket_weight_N = bracket_mass_kg * g_m_s2
+    camera_weight_N = camera_mass_kg * g_m_s2
+    support_Ry_N = bracket_weight_N + camera_weight_N
+    support_MA_Nm = bracket_weight_N * bracket_cg_x_m + camera_weight_N * camera_x_m
+    # Positive force: upward; positive moment about A: counterclockwise.
+    residual_Fy_N = support_Ry_N - bracket_weight_N - camera_weight_N
+    residual_MA_Nm = (support_MA_Nm - bracket_weight_N * bracket_cg_x_m
+                      - camera_weight_N * camera_x_m)
+    assert isclose(residual_Fy_N, 0, abs_tol=1e-12)
+    assert isclose(residual_MA_Nm, 0, abs_tol=1e-12)
+    return {
+        'bracket_cg_x_m': bracket_cg_x_m,
+        'bracket_weight_N': bracket_weight_N,
+        'camera_weight_N': camera_weight_N,
+        'support_Ry_up_N': support_Ry_N,
+        'support_MA_ccw_Nm': support_MA_Nm,
+        'residual_Fy_N': residual_Fy_N,
+        'residual_MA_Nm': residual_MA_Nm,
+    }
+
+
+def independent_distributed_moment_Nm(mass_kg, length_m, g_m_s2=10.0, slices=1000):
+    """Midpoint integration of uniform self-weight as independent check."""
+    if slices < 1 or length_m <= 0 or mass_kg < 0 or g_m_s2 <= 0:
+        raise ValueError('Invalid distributed-load inputs')
+    piece_weight_N = mass_kg * g_m_s2 / slices
+    return sum(piece_weight_N * (i + 0.5) * length_m / slices
+               for i in range(slices))
+
+
+if __name__ == '__main__':
+    demo = bracket_example(0.6, 0.30, 2.0, 0.30)
+    expected = {
+        'bracket_cg_x_m': 0.15,
+        'bracket_weight_N': 6.0,
+        'camera_weight_N': 20.0,
+        'support_Ry_up_N': 26.0,
+        'support_MA_ccw_Nm': 6.9,
+    }
+    for key, value in expected.items():
+        assert isclose(demo[key], value, abs_tol=1e-12), (key, demo[key])
+    integral = independent_distributed_moment_Nm(0.6, 0.30)
+    assert isclose(integral, 0.9, abs_tol=1e-12), integral
+    # With massless bracket, recover the lesson-01 external load result.
+    no_self_weight = bracket_example(0, 0.30, 2.0, 0.30)
+    assert isclose(no_self_weight['support_MA_ccw_Nm'], 6.0, abs_tol=1e-12)
+    # With no camera, only the bracket's weight remains.
+    no_camera = bracket_example(0.6, 0.30, 0, 0.30)
+    assert isclose(no_camera['support_MA_ccw_Nm'], integral, abs_tol=1e-12)
+    print(json.dumps({'example': demo,
+                      'self_weight_moment_midpoint_Nm': integral,
+                      'checks': 'PASS: equilibrium, midpoint integral, zero-mass limits'},
+                     ensure_ascii=False, indent=2))
+    print('Units: kg*m/s^2 = N; N*m = moment. No Pint-based unit checking.')
 ````
 
 ---
