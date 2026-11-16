@@ -1,14 +1,14 @@
 # GPT 网页端使用指南
 
-本指南的目标是让教材与学习状态可迁移，而不是承诺每个网页端会话都具备本机 CAD、Python 和 GitHub 写入能力。核对日期：2026-11-14。
+本指南的目标是让教材与学习状态可迁移，而不是承诺每个网页端会话都具备本机 CAD、Python 和 GitHub 写入能力。核对日期：2026-11-16。
 
 ## 推荐方式：一个 Project + 一份学习包
 
 1. 在 ChatGPT 网页端创建 `cad-teacher` Project。
 2. 将 [项目教学指令](../prompts/project-instructions.md) 的正文放入项目指令。
-3. 下载并上传 [chatgpt-study-pack.txt](../learning/chatgpt-study-pack.txt)。它含原始提示词、进度、课程路线、第一课及反馈、已核实的 Skill 地址、起步课 Skill/参考资料和脚本。也可直接粘贴需要的章节。
+3. 下载并上传 [chatgpt-study-pack.txt](../learning/chatgpt-study-pack.txt)。它含原始提示词、进度、课程路线、第一课及反馈、第二课讲义与公开示例、已核实的 Skill 地址、起步课 Skill/参考资料和脚本。也可直接粘贴需要的章节。
 4. 发送 [恢复学习提示词](../prompts/resume-learning.md)。先让模型准确复述进度，再进入新课。
-5. 若当前会话能执行 Python，请运行包内 `learning/lesson-01.py`，核对示例反力 20 N、反力矩 6 N·m、平衡残差为零。无执行工具时，明确记为“当前会话未运行”，不要把包中的历史结果当成本次执行结果。
+5. 若当前会话能执行 Python，可运行包内 `learning/lesson-01.py` 和 `learning/lesson-02.py`，核对第二课公开示例反力 26 N、反力矩 6.9 N·m、平衡残差为零。无执行工具时，明确记为“当前会话未运行”，不要把包中的历史结果当成本次执行结果。
 
 Project 支持添加参考文件与项目指令；具体入口与文件数量受计划及工作区设置影响。按你的实际界面操作，不依赖固定套餐上限。[OpenAI：Projects in ChatGPT](https://help.openai.com/en/articles/10169521-projects-in-chatgpt)
 
@@ -45,7 +45,7 @@ python3 tools/check_project.py
 
 ## 网页端验收清单
 
-- 能复述：第 01 单元已完成，下一单元为支架自重与重心。
+- 能复述：第 01 单元已完成，第 02 单元讲义与示例已发布但练习待作答，第 03 单元尚未开始。
 - 能指出：曾混淆力与力矩单位，应继续巩固方向表达。
 - 能列出两个起步 Skill 的真实 GitHub 来源，并读到包内参考资料。
 - 新题先等待回答，不能先给解析。

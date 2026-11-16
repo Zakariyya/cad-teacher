@@ -2,7 +2,7 @@
 
 为具有约 7 年 Java 后端经验的学习者，从机械、电路与动力学基础逐步走向机械设计、CAD、嵌入式、控制与 ROS 2 集成。
 
-**这是一份持续编写的教材。目前第一课已完成讲解、练习和反馈；其余是培养路线，不是已经写完的课程。** 下一课是支架自重与重心。
+**这是一份持续编写的教材。第一课已完成讲解与反馈，第二课「支架自重与重心」讲义、示例和习题已发布，待学习者作答；其余课程仍是培养路线。**
 
 ## 开始阅读
 
@@ -14,6 +14,7 @@
 | 设置网页端导师 | [项目教学指令](prompts/project-instructions.md) · [恢复学习提示词](prompts/resume-learning.md) |
 | 查看完整培养路线 | [课程路线与能力检查](curriculum/roadmap.md) |
 | 阅读第一课 | [讲义](learning/lesson-01.md) · [作答反馈](learning/lesson-01-review.md) |
+| 阅读第二课：支架自重与重心 | [讲义及两道练习](learning/lesson-02.md) · [示例代码](learning/lesson-02.py) · [验证记录](learning/lesson-02-verification.md) |
 | 找 Skill GitHub 地址 | [41 个 Skill 来源索引](resources/skills.md) · [版本登记表](resources/skill-sources.json) |
 | 维护与编写教材 | [目录职责](docs/project-structure.md) · [质量标准](docs/teaching-standard.md) · [新课模板](templates/lesson.md) |
 
@@ -27,7 +28,7 @@
 ## GPT 网页端最短使用路径
 
 1. 建立 `cad-teacher` Project，将 [项目教学指令](prompts/project-instructions.md) 放入项目指令。
-2. 下载并上传 [chatgpt-study-pack.txt](learning/chatgpt-study-pack.txt)。包含原始需求、当前进度、第一课与反馈、来源和起步 Skill 资源。
+2. 下载并上传 [chatgpt-study-pack.txt](learning/chatgpt-study-pack.txt)。包含原始需求、当前进度、第一课与反馈、第二课讲义及示例、来源和起步 Skill 资源。
 3. 发送 [恢复学习提示词](prompts/resume-learning.md)，先确认进度，再开始一个知识单元。
 
 有 GitHub 连接时可按需读仓库；没有也能用上传包开展阅读、讲解与问答。Python、CAD 和仓库写入取决于当前实际工具，不保证任意网页会话都具备。网页端尚未在你的账号中实测，验收清单见使用指南。
@@ -52,6 +53,7 @@ docs/          网页端指南、教学标准与维护设计
 
 ```bash
 python3 learning/lesson-01.py
+python3 learning/lesson-02.py
 python3 tools/build_study_pack.py
 python3 tools/check_project.py
 ```
@@ -63,7 +65,7 @@ uv venv .venv
 uv pip install --python .venv/bin/python -r requirements.txt
 ```
 
-计算脚本检查静力平衡；检查工具验证本地链接、Skill 固定版本格式、第三方文件哈希、练习结果、SVG 和上传包新鲜度。它不代替 CAD、FEA、实物或网页端验收。
+计算脚本检查静力平衡和均匀杆自重示例；检查工具验证本地链接、Skill 固定版本格式、第三方文件哈希、教学计算、SVG 和上传包新鲜度。它不代替 CAD、FEA、实物或网页端验收。
 
 ## 更新与同步
 

@@ -55,10 +55,15 @@ def main():
             raise SystemExit(f'FAIL: lesson result {name}')
         if any(abs(value) > 1e-12 for value in actual['residuals_Fx_N_Fy_N_MA_Nm']):
             raise SystemExit(f'FAIL: equilibrium residual {name}')
+    lesson_two = next(entry for entry in catalog['lessons'] if entry['id'] == '02')
+    if lesson_two['feedback_published'] or lesson_two.get('answer_key') or lesson_two.get('solution_script'):
+        raise SystemExit('FAIL: 未作答的第二课不能附练习解析')
+    subprocess.run([sys.executable, 'learning/lesson-02.py'], cwd=ROOT, check=True)
     ET.parse(ROOT / 'learning/lesson-01-fbd.svg')
+    ET.parse(ROOT / 'learning/lesson-02-fbd.svg')
     subprocess.run([sys.executable, 'tools/build_study_pack.py', '--check'], cwd=ROOT, check=True)
     print(f'PASS: {checked} local links; {sum(len(r["skills"]) for r in data["repositories"])} pinned Skill URLs; '
-          f'{len(data["snapshots"])} exact upstream snapshots; lesson arithmetic; SVG; current upload pack')
+          f'{len(data["snapshots"])} exact upstream snapshots; lessons 01/02 arithmetic; SVG; current upload pack')
     print('Not checked: live ChatGPT upload, CAD geometry, FEA, hardware.')
 
 
