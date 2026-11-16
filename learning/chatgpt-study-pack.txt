@@ -7,23 +7,23 @@
 缺少运行工具时明确未运行；不能写 GitHub 时输出待回写更新。
 图的链接供在线查看；离线时使用讲义中的对象、尺寸、方向和方程重画受力图。
 权威进度：https://github.com/Zakariyya/cad-teacher/blob/main/learning/progress.md
-源文件集合 SHA-256：3edd3255b621f18212f9d1e4ff084a1975946fad04cbc285f725a33c4454d505
+源文件集合 SHA-256：db415547af5e508ec6bd11239fda7db76f4cfdf0f2508805443ae7aefcff42eb
 
 ## 内嵌源文件与 SHA-256
 - prompts/project-instructions.md: 9e7a26c101a74e5d0cfadf68bdd67be58377479997d4bc4204d05d138c636e62
 - prompts/original-request.md: 4d535be9f4d1aae136b26363083351dec3195ab48c1162de5fe98d8e3096e32b
 - prompts/resume-learning.md: 02a360bd3294a5f9ca8aae44a515339fc56751160721aa109e29ff53aad52739
-- learning/progress.md: 92febe5a5b38f00ab4b7e6a365c438e34b4c39bab63fc064a9273b8bbd2a7c8a
-- curriculum/roadmap.md: 9dbcd12d7b3866c75c448ff0822870253817621a5c2d2595c9a316ab38f13f2a
+- learning/progress.md: 79dbd4cb62a3a1a529450451e4eaf69cbd0bff89daddb6516998c927d9640bf5
+- curriculum/roadmap.md: 5242f4dc6ea41f1ad93d2689a3bd3170e8951e2166bcbdc7ea33529b9e8c43ba
 - curriculum/lessons.json: bfe844d59db19c4d9b3603c2f0f847638d0baa3beb0e3f7cb8a6be1f88dafb8a
 - learning/resources.md: aa8eff0171f262007dd3edc34e61af7df7c15622ae93c7336eefd7d61dde8340
 - learning/lesson-01.md: 620de72d45b8c5585e5d954791652e930531610646fa355fe56cd156124500f8
 - learning/lesson-01-review.md: 5f4500b5ccc55a6693089773f451704ffcadedd02a9a6de77eb7c85cd7f8b400
 - learning/lesson-01.py: 934afc81dffc3bf1441b8e6410f3be9a7b082a991aadbd56c230bfa11afd7540
 - learning/lesson-01-answer-key.json: f05f1aad6604485663fe20423c2a3d68a28aa7dec3af0034543a90728549fe98
-- learning/lesson-02.md: e30d4356f7113dad77835135cc926d005f43033d0c5693a2c76f1c4b4db0239f
+- learning/lesson-02.md: 3ea42af818ee2369e3dd6aecb83b8cb46b84703175be82178d623c49e578505a
 - learning/lesson-02.py: 9149b480153d3c9e01706c1d3c0915fdd79fe38e54e1caaf5e1eb605fb963d08
-- learning/lesson-02-review.md: 5d97df3efa21bb46e49a75d18f88d044c309c944dec0781742d0a0ffe8fa579f
+- learning/lesson-02-review.md: 66dc106644b64e536a27eb566586431df46c74523ae30f61b707fbc38fcee4cb
 - learning/lesson-02-answer-key.json: efe6bee5ffcd00da329dd8acd854b05bb865fb49b27bbf3f38d87eee62cf2331
 - docs/teaching-standard.md: e157413e81d7690a9f74ac6c20bddead64a91c2cd65ce7a10e946eed4f92137a
 - resources/skills.md: 064e88f7e35386749944f62aa5be4b7abb7944e8674a78f3c1b61126d1e6e40a
@@ -145,14 +145,14 @@
 | 单元 | 状态 | 证据 |
 | --- | --- | --- |
 | 01 力、力矩、固定支撑反力与受力分析 | 已完成本单元讲解、两题作答与概念追问 | [作答与反馈](https://github.com/Zakariyya/cad-teacher/blob/main/learning/lesson-01-review.md) |
-| 02 支架自重与重心 | **讲解、概念检查、基础题与工程应用计算均已完成；数值计算通过，单位与方向已反馈，独立物理解释待确认** | [讲义](https://github.com/Zakariyya/cad-teacher/blob/main/learning/lesson-02.md) · [作答反馈](https://github.com/Zakariyya/cad-teacher/blob/main/learning/lesson-02-review.md) · [验证记录](https://github.com/Zakariyya/cad-teacher/blob/main/learning/lesson-02-verification.md) |
+| 02 支架自重与重心 | **已完成：讲解、概念检查、基础题、工程应用题与力矩物理解释；数值正确，力矩单位已纠正** | [讲义](https://github.com/Zakariyya/cad-teacher/blob/main/learning/lesson-02.md) · [作答反馈](https://github.com/Zakariyya/cad-teacher/blob/main/learning/lesson-02-review.md) · [验证记录](https://github.com/Zakariyya/cad-teacher/blob/main/learning/lesson-02-verification.md) |
 | 03 多载荷平衡及后续阶段 | 尚未开始 | [课程路线](https://github.com/Zakariyya/cad-teacher/blob/main/curriculum/roadmap.md) |
 
 ## 下次如何继续
 
-第 02 课的讲解、概念检查、基础计算和工程应用计算均已完成，原答与反馈保存在 [作答反馈](https://github.com/Zakariyya/cad-teacher/blob/main/learning/lesson-02-review.md)。计算数值全部正确；基础题的力矩单位最初写成 N，已纠正为 N·m；工程题的方向未主动标注。补充思考留空，下一步只需让学习者用自己的话解释：为什么移动相机不改变竖直反力，却会改变固定端反力矩。确认这一物理解释后，再进入第 03 课。
+第 02 课已正式完成。数值计算全部正确；基础题的力矩单位最初写成 N，已纠正为 N·m；工程题的方向未主动标注，已反馈。学习者能够用整体重心解释相机外移会增大总力矩，导师进一步解释了力矩与力臂成正比的做功推导。下一步进入第 03 课「多载荷平衡」。
 
-持续巩固：第一课和第二课都要区分力 N 与力矩 N·m。第二课已能正确完成数值计算，但仍要练习在每个结果后主动注明向上/向下、顺时针/逆时针。
+持续巩固：第一课和第二课都要区分力 N 与力矩 N·m；计算结果主动注明向上/向下、顺时针/逆时针。第二课已能理解力臂与力矩的正比关系。
 
 ## 验证与边界
 
@@ -164,7 +164,7 @@
 
 # 从基础到独立机器人开发的课程路线
 
-这是逐课编写的培养路线，不是已完成的教材。当前个人状态只在 [学习进度](https://github.com/Zakariyya/cad-teacher/blob/main/learning/progress.md) 维护；第一课已完成，第二课讲义已发布待练习，其余单元尚未编写。一个条目可按学习反馈拆成多个小课，数学在需要时补齐。
+这是逐课编写的培养路线，不是已完成的教材。当前个人状态只在 [学习进度](https://github.com/Zakariyya/cad-teacher/blob/main/learning/progress.md) 维护；第一课与第二课已完成，其余单元尚未编写。一个条目可按学习反馈拆成多个小课，数学在需要时补齐。
 
 | 阶段 | 知识单元（按顺序） | 机器人任务 | 阶段能力检查 |
 | --- | --- | --- | --- |
@@ -511,7 +511,7 @@ print('SVG saved; this standard-library script does not render PNG. Not FEA.')
 
 # 第 02 单元：支架自重与重心
 
-状态：**讲义、示例与练习已完成；数值计算通过，物理解释表达待确认**（2026-11-16）。作答记录见 [反馈](https://github.com/Zakariyya/cad-teacher/blob/main/learning/lesson-02-review.md)。
+状态：**已完成**（2026-11-16）。作答与概念解释反馈见 [第二课反馈](https://github.com/Zakariyya/cad-teacher/blob/main/learning/lesson-02-review.md)。作答记录见 [反馈](https://github.com/Zakariyya/cad-teacher/blob/main/learning/lesson-02-review.md)。
 
 ## 学习目标与前置知识
 
@@ -599,7 +599,7 @@ x_G = (Σ m_i × x_i) / (Σ m_i)
 
 ## 本课作用、边界与下一课
 
-这为机械臂连杆自重、末端工具负载、固定端初步选型建立物理直觉。下一课「03 多载荷平衡」再推广到更多外力和位置。本课仅是**理想刚体的静力估算**；不涉及 CAD 几何验收、FEA、材料强度或实物验证。数值练习已完成；进入下一课前，先确认能否独立解释载荷位置变化为何影响力矩、却不改变总竖直反力。
+这为机械臂连杆自重、末端工具负载、固定端初步选型建立物理直觉。下一课「03 多载荷平衡」再推广到更多外力和位置。本课仅是**理想刚体的静力估算**；不涉及 CAD 几何验收、FEA、材料强度或实物验证。数值练习与力矩物理解释均已完成。下一课进入「03 多载荷平衡」。
 
 ## 资源来源
 
@@ -782,6 +782,37 @@ if __name__ == '__main__':
 - 后续巩固：每个力都标明方向，每个力矩都标明顺/逆时针；主动解释“竖直反力取决于合力、反力矩取决于力臂”。
 - 补充思考未作答，尚未评价独立物理解释能力。
 - **结论：第二课数值计算练习通过；物理解释表达待最后确认。** 不等于已掌握更复杂的多载荷、斜向力、非固定支撑、材料强度或动态工况。
+
+
+## E. 力矩为什么与力臂成正比：学习者的概念解释
+
+### 学习者原话
+
+> 其实就是杠杆原理，你把相机和支架理解成一个整体的话，相机离固定端越远，它们整体的中心就越偏离，这时候力矩平衡差值就出现了，至于为什么力矩和距离成正比，我发现我用语言解释不出来，你可以解释下，然后就可以结束第二课了，这个知识点我感觉我是学会了的
+
+### 导师反馈与补充
+
+整体理解正确：把支架和相机作为一个系统，系统总重力可以等效作用于整体重心。相机向外移动时，整体重心向外移动，因此总重力对固定端 A 的力矩增大。静止时固定端必须提供大小相等、方向相反的反力矩。更准确地说，不是静止状态下存在未平衡的“力矩差值”；而是外载荷产生更大的顺时针力矩，固定端用更大的逆时针反力矩抵消它。
+
+用本题数据验证整体重心的说法：
+
+- 支架质量 0.6 kg，重心位置 0.20 m；相机质量 1.5 kg。
+- 相机位于 0.10 m 时，整体重心为
+  `x_G=(0.6×0.20+1.5×0.10)/(0.6+1.5)=0.1286 m`，总重力 21 N，对 A 的力矩为约 2.7 N·m。
+- 相机位于 0.35 m 时，整体重心为
+  `x_G=(0.6×0.20+1.5×0.35)/(0.6+1.5)=0.3071 m`，总重力 21 N，对 A 的力矩为约 6.45 N·m。
+
+为什么力矩与距离成正比：对垂直于力臂的力，物体绕转轴转过同一个小角度 `θ` 时，施力点走过的弧长为 `s=rθ`。同样的力沿运动方向做功 `W=Fs=Frθ`。因此每单位转角对应的功（力矩）为 `W/θ=Fr`。力不变时，力臂加倍，力矩也加倍。若力与位置向量不垂直，则只有垂直于力臂的分力产生该转动效果，一般关系为 `τ=rF sin(θ)`。
+
+扳手/门把手是直观例子：用相同的力，离转轴越远，作用效果越大。学习者已理解杠杆关系；导师补充了比例关系的物理推导。
+
+### 最终学习判断
+
+- 数值计算：通过。
+- 单位和方向：已反馈并纠正力矩单位；继续养成主动标注方向的习惯。
+- 整体重心与力矩关系：理解正确。
+- 力矩与力臂成正比的原因：已通过弧长与做功关系讲解。
+- **第二课正式完成。** 这表示本课理想刚体静力学目标已达成，不代表掌握更复杂的多载荷、斜向力、材料强度、动态工况或真实机械臂选型。
 
 ---
 
