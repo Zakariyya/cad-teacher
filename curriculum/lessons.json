@@ -9,6 +9,13 @@
       "feedback": "learning/lesson-01-review.md",
       "solution_script": "learning/lesson-01.py",
       "answer_key": "learning/lesson-01-answer-key.json"
+    },
+    {
+      "id": "02",
+      "title": "支架自重与重心",
+      "lesson": "learning/lesson-02.md",
+      "feedback_published": false,
+      "example_script": "learning/lesson-02.py"
     }
   ]
 }

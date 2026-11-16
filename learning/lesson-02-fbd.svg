@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="470" viewBox="0 0 1000 470">
+<defs>
+<marker id="load" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto"><path d="M0 0 L7 3 L0 6 Z" fill="#c0392b"/></marker>
+<marker id="reaction" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto"><path d="M0 0 L7 3 L0 6 Z" fill="#1f4e79"/></marker>
+</defs>
+<rect width="1000" height="470" fill="white"/>
+<g font-family="sans-serif" font-size="19" fill="#2c3e50">
+<text x="500" y="40" font-size="25" text-anchor="middle">支架自重与重心 · 受力图</text>
+<text x="500" y="70" font-size="16" text-anchor="middle">均匀水平直杆，取逆时针力矩为正</text>
+<rect x="220" y="194" width="510" height="24" fill="#d9dde3" stroke="#2c3e50" stroke-width="2"/>
+<circle cx="220" cy="206" r="4" fill="#2c3e50"/><text x="208" y="240">A</text>
+<circle cx="475" cy="206" r="5" fill="#e6a735" stroke="#2c3e50" stroke-width="1.5"/>
+<text x="460" y="240">G</text><text x="730" y="240">C</text>
+<g stroke="#c0392b" stroke-width="3" fill="none">
+<path d="M475 110 V187" marker-end="url(#load)"/>
+<path d="M730 110 V187" marker-end="url(#load)"/>
+</g>
+<text x="475" y="101" fill="#c0392b" text-anchor="middle">Wb = 6 N</text>
+<text x="730" y="101" fill="#c0392b" text-anchor="middle">Wc = 20 N</text>
+<g stroke="#1f4e79" stroke-width="3" fill="none">
+<path d="M220 195 V118" marker-end="url(#reaction)"/>
+<path d="M165 252 A76 76 0 1 0 172 156" marker-end="url(#reaction)"/>
+</g>
+<text x="204" y="103" fill="#1f4e79" text-anchor="end">Ay = 26 N</text>
+<text x="65" y="270" fill="#1f4e79">MA = 6.9 N·m</text>
+<text x="65" y="295" fill="#1f4e79">逆时针</text>
+<g stroke="#8090a0" stroke-width="1.4" fill="none">
+<path d="M220 225 V344 M475 225 V344 M730 225 V344"/>
+<path d="M220 331 H475 M475 331 H730"/>
+<path d="M220 322 V340 M475 322 V340 M730 322 V340"/>
+</g>
+<text x="347.5" y="319" text-anchor="middle">0.15 m</text>
+<text x="602.5" y="319" text-anchor="middle">0.15 m</text>
+<text x="475" y="376" text-anchor="middle">L = 0.30 m</text>
+<g stroke-width="2" fill="none">
+<path d="M785 406 H854" stroke="#2c3e50"/>
+<path d="M785 406 V345" stroke="#2c3e50"/>
+</g>
+<text x="866" y="413">+x</text><text x="772" y="334">+y</text>
+<text x="35" y="425" font-size="15">力：向下为负；力矩：绕 A 逆时针为正。红色为外载，蓝色为支撑反力。</text>
+</g></svg>
