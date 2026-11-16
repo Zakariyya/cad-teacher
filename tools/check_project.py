@@ -56,8 +56,15 @@ def main():
         if any(abs(value) > 1e-12 for value in actual['residuals_Fx_N_Fy_N_MA_Nm']):
             raise SystemExit(f'FAIL: equilibrium residual {name}')
     lesson_two = next(entry for entry in catalog['lessons'] if entry['id'] == '02')
-    if lesson_two['feedback_published'] or lesson_two.get('answer_key') or lesson_two.get('solution_script'):
-        raise SystemExit('FAIL: 未作答的第二课不能附练习解析')
+    if not lesson_two['feedback_published'] or not lesson_two.get('feedback') or not lesson_two.get('answer_key'):
+        raise SystemExit('FAIL: 第二课作答反馈与答案记录尚未登记')
+    key_two = json.loads((ROOT / lesson_two['answer_key']).read_text(encoding='utf-8'))
+    submitted = key_two['application_camera_submitted_position']
+    if (submitted['camera_weight_N'], submitted['camera_moment_Nm'],
+            submitted['support_vertical_reaction_N'], submitted['support_reaction_moment_Nm']) != (15, 1.5, 21, 2.7):
+        raise SystemExit('FAIL: 第二课工程应用结果')
+    if any(abs(value) > 1e-12 for value in submitted['equilibrium_residuals'].values()):
+        raise SystemExit('FAIL: 第二课平衡残差')
     subprocess.run([sys.executable, 'learning/lesson-02.py'], cwd=ROOT, check=True)
     ET.parse(ROOT / 'learning/lesson-01-fbd.svg')
     ET.parse(ROOT / 'learning/lesson-02-fbd.svg')

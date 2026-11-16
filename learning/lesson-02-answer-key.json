@@ -1,0 +1,68 @@
+{
+  "concept_check": {
+    "uniform_rod_length_cm": 40,
+    "center_of_gravity_from_left_cm": 20,
+    "camera_mass_kg": 2,
+    "gravity_m_s2": 10,
+    "camera_weight_N": 20,
+    "lever_arm_change": "0.20 m to 0.40 m",
+    "moment_ratio_after_before": 2
+  },
+  "basic_problem": {
+    "bracket_mass_kg": 0.8,
+    "length_m": 0.4,
+    "gravity_m_s2": 10,
+    "bracket_weight_N": 8,
+    "bracket_weight_direction": "down",
+    "center_of_gravity_from_A_m": 0.2,
+    "support_vertical_reaction_N": 8,
+    "support_vertical_reaction_direction": "up",
+    "support_reaction_moment_Nm": 1.6,
+    "support_reaction_moment_direction": "counterclockwise",
+    "external_bracket_weight_moment_Nm": 1.6,
+    "external_bracket_weight_moment_direction": "clockwise",
+    "equilibrium_residuals": {
+      "Fy_N": 0,
+      "MA_Nm": 0
+    }
+  },
+  "application_camera_original_position": {
+    "bracket_mass_kg": 0.6,
+    "bracket_length_m": 0.4,
+    "camera_mass_kg": 1.5,
+    "camera_x_m": 0.35,
+    "gravity_m_s2": 10,
+    "bracket_weight_N": 6,
+    "camera_weight_N": 15,
+    "bracket_cg_x_m": 0.2,
+    "bracket_moment_Nm": 1.2,
+    "camera_moment_Nm": 5.25,
+    "support_vertical_reaction_N": 21,
+    "support_reaction_moment_Nm": 6.45
+  },
+  "application_camera_position_0_20_m": {
+    "camera_x_m": 0.2,
+    "camera_weight_N": 15,
+    "camera_moment_Nm": 3,
+    "bracket_moment_Nm": 1.2,
+    "support_vertical_reaction_N": 21,
+    "support_reaction_moment_Nm": 4.2
+  },
+  "application_camera_submitted_position": {
+    "camera_x_m": 0.1,
+    "camera_weight_N": 15,
+    "camera_moment_Nm": 1.5,
+    "camera_moment_direction": "clockwise",
+    "bracket_weight_N": 6,
+    "bracket_cg_x_m": 0.2,
+    "bracket_moment_Nm": 1.2,
+    "support_vertical_reaction_N": 21,
+    "support_vertical_reaction_direction": "up",
+    "support_reaction_moment_Nm": 2.7,
+    "support_reaction_moment_direction": "counterclockwise",
+    "equilibrium_residuals": {
+      "Fy_N": 0,
+      "MA_Nm": 0
+    }
+  }
+}

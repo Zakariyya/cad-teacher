@@ -14,8 +14,10 @@
       "id": "02",
       "title": "支架自重与重心",
       "lesson": "learning/lesson-02.md",
-      "feedback_published": false,
-      "example_script": "learning/lesson-02.py"
+      "feedback_published": true,
+      "feedback": "learning/lesson-02-review.md",
+      "example_script": "learning/lesson-02.py",
+      "answer_key": "learning/lesson-02-answer-key.json"
     }
   ]
 }
