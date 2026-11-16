@@ -7,22 +7,24 @@
 缺少运行工具时明确未运行；不能写 GitHub 时输出待回写更新。
 图的链接供在线查看；离线时使用讲义中的对象、尺寸、方向和方程重画受力图。
 权威进度：https://github.com/Zakariyya/cad-teacher/blob/main/learning/progress.md
-源文件集合 SHA-256：d35b48162fade11eea02d987d9ee0dcd87234a35e2994d0836a3cdf7f6561f67
+源文件集合 SHA-256：3edd3255b621f18212f9d1e4ff084a1975946fad04cbc285f725a33c4454d505
 
 ## 内嵌源文件与 SHA-256
 - prompts/project-instructions.md: 9e7a26c101a74e5d0cfadf68bdd67be58377479997d4bc4204d05d138c636e62
 - prompts/original-request.md: 4d535be9f4d1aae136b26363083351dec3195ab48c1162de5fe98d8e3096e32b
 - prompts/resume-learning.md: 02a360bd3294a5f9ca8aae44a515339fc56751160721aa109e29ff53aad52739
-- learning/progress.md: f3787f75ebf52755714d430b2cff44eb9c703748d45f3cd5f78bc84f5209aaec
+- learning/progress.md: 92febe5a5b38f00ab4b7e6a365c438e34b4c39bab63fc064a9273b8bbd2a7c8a
 - curriculum/roadmap.md: 9dbcd12d7b3866c75c448ff0822870253817621a5c2d2595c9a316ab38f13f2a
-- curriculum/lessons.json: 9a80976fb1947cd278a2d1be0b3b0fd7e00633ade0ab354976b7f35543f30126
+- curriculum/lessons.json: bfe844d59db19c4d9b3603c2f0f847638d0baa3beb0e3f7cb8a6be1f88dafb8a
 - learning/resources.md: aa8eff0171f262007dd3edc34e61af7df7c15622ae93c7336eefd7d61dde8340
 - learning/lesson-01.md: 620de72d45b8c5585e5d954791652e930531610646fa355fe56cd156124500f8
 - learning/lesson-01-review.md: 5f4500b5ccc55a6693089773f451704ffcadedd02a9a6de77eb7c85cd7f8b400
 - learning/lesson-01.py: 934afc81dffc3bf1441b8e6410f3be9a7b082a991aadbd56c230bfa11afd7540
 - learning/lesson-01-answer-key.json: f05f1aad6604485663fe20423c2a3d68a28aa7dec3af0034543a90728549fe98
-- learning/lesson-02.md: f84ccdf0f47cadb30386dd42e8be86d00e8b553dc010f68df5e3bd1b45b0264c
+- learning/lesson-02.md: e30d4356f7113dad77835135cc926d005f43033d0c5693a2c76f1c4b4db0239f
 - learning/lesson-02.py: 9149b480153d3c9e01706c1d3c0915fdd79fe38e54e1caaf5e1eb605fb963d08
+- learning/lesson-02-review.md: 5d97df3efa21bb46e49a75d18f88d044c309c944dec0781742d0a0ffe8fa579f
+- learning/lesson-02-answer-key.json: efe6bee5ffcd00da329dd8acd854b05bb865fb49b27bbf3f38d87eee62cf2331
 - docs/teaching-standard.md: e157413e81d7690a9f74ac6c20bddead64a91c2cd65ce7a10e946eed4f92137a
 - resources/skills.md: 064e88f7e35386749944f62aa5be4b7abb7944e8674a78f3c1b61126d1e6e40a
 - resources/THIRD_PARTY_NOTICES.md: 8c6c90522dbf943913d3accb4c7a667eda3e88914391e0850f52c101ad86c8fc
@@ -143,14 +145,14 @@
 | 单元 | 状态 | 证据 |
 | --- | --- | --- |
 | 01 力、力矩、固定支撑反力与受力分析 | 已完成本单元讲解、两题作答与概念追问 | [作答与反馈](https://github.com/Zakariyya/cad-teacher/blob/main/learning/lesson-01-review.md) |
-| 02 支架自重与重心 | **已发布讲义和公开计算示例；两题待作答，尚未判定掌握** | [讲义](https://github.com/Zakariyya/cad-teacher/blob/main/learning/lesson-02.md) · [验证记录](https://github.com/Zakariyya/cad-teacher/blob/main/learning/lesson-02-verification.md) |
+| 02 支架自重与重心 | **讲解、概念检查、基础题与工程应用计算均已完成；数值计算通过，单位与方向已反馈，独立物理解释待确认** | [讲义](https://github.com/Zakariyya/cad-teacher/blob/main/learning/lesson-02.md) · [作答反馈](https://github.com/Zakariyya/cad-teacher/blob/main/learning/lesson-02-review.md) · [验证记录](https://github.com/Zakariyya/cad-teacher/blob/main/learning/lesson-02-verification.md) |
 | 03 多载荷平衡及后续阶段 | 尚未开始 | [课程路线](https://github.com/Zakariyya/cad-teacher/blob/main/curriculum/roadmap.md) |
 
 ## 下次如何继续
 
-直接学习 [第 02 课](https://github.com/Zakariyya/cad-teacher/blob/main/learning/lesson-02.md) 并回答一题基础、一题工程应用；需要讲解时先从质量、重力、重心物理意义开始，先方向再公式。作答后保留学生原答，逐项反馈数值、单位、方向、力臂、假设与物理解释，才讨论是否进入第 03 课。**不提前公开两道题的解析或答案。**
+第 02 课的讲解、概念检查、基础计算和工程应用计算均已完成，原答与反馈保存在 [作答反馈](https://github.com/Zakariyya/cad-teacher/blob/main/learning/lesson-02-review.md)。计算数值全部正确；基础题的力矩单位最初写成 N，已纠正为 N·m；工程题的方向未主动标注。补充思考留空，下一步只需让学习者用自己的话解释：为什么移动相机不改变竖直反力，却会改变固定端反力矩。确认这一物理解释后，再进入第 03 课。
 
-持续巩固：第一课曾把“向下的 10 N”称为力矩；新题重点检查质量 kg、重力 N、力矩 N·m，反力方向和反力矩方向。
+持续巩固：第一课和第二课都要区分力 N 与力矩 N·m。第二课已能正确完成数值计算，但仍要练习在每个结果后主动注明向上/向下、顺时针/逆时针。
 
 ## 验证与边界
 
@@ -216,8 +218,10 @@
       "id": "02",
       "title": "支架自重与重心",
       "lesson": "learning/lesson-02.md",
-      "feedback_published": false,
-      "example_script": "learning/lesson-02.py"
+      "feedback_published": true,
+      "feedback": "learning/lesson-02-review.md",
+      "example_script": "learning/lesson-02.py",
+      "answer_key": "learning/lesson-02-answer-key.json"
     }
   ]
 }
@@ -507,7 +511,7 @@ print('SVG saved; this standard-library script does not render PNG. Not FEA.')
 
 # 第 02 单元：支架自重与重心
 
-状态：**讲义与示例已发布，练习待作答**（2026-11-16），不能据此判定已掌握。
+状态：**讲义、示例与练习已完成；数值计算通过，物理解释表达待确认**（2026-11-16）。作答记录见 [反馈](https://github.com/Zakariyya/cad-teacher/blob/main/learning/lesson-02-review.md)。
 
 ## 学习目标与前置知识
 
@@ -591,11 +595,11 @@ x_G = (Σ m_i × x_i) / (Σ m_i)
 2. 求 A 的竖直反力与反力矩；**忽略支架自重会少算多少反力矩**？
 3. 如果相机向 A 移动，使其位置变为 `x_c=0.20 m`，竖直反力、反力矩各如何变化？说明原因。
 
-请列出公式、数值、单位和方向。两题尚未作答，讲义、脚本和上传学习包中**均不发布题目解析或答案**。
+请列出公式、数值、单位和方向。练习现已作答，逐项反馈见 [作答记录](https://github.com/Zakariyya/cad-teacher/blob/main/learning/lesson-02-review.md)，参考结果见 [答案记录](https://github.com/Zakariyya/cad-teacher/blob/main/learning/lesson-02-answer-key.json)。
 
 ## 本课作用、边界与下一课
 
-这为机械臂连杆自重、末端工具负载、固定端初步选型建立物理直觉。下一课「03 多载荷平衡」再推广到更多外力和位置。本课仅是**理想刚体的静力估算**；不涉及 CAD 几何验收、FEA、材料强度或实物验证。
+这为机械臂连杆自重、末端工具负载、固定端初步选型建立物理直觉。下一课「03 多载荷平衡」再推广到更多外力和位置。本课仅是**理想刚体的静力估算**；不涉及 CAD 几何验收、FEA、材料强度或实物验证。数值练习已完成；进入下一课前，先确认能否独立解释载荷位置变化为何影响力矩、却不改变总竖直反力。
 
 ## 资源来源
 
@@ -680,6 +684,178 @@ if __name__ == '__main__':
                       'checks': 'PASS: equilibrium, midpoint integral, zero-mass limits'},
                      ensure_ascii=False, indent=2))
     print('Units: kg*m/s^2 = N; N*m = moment. No Pint-based unit checking.')
+````
+
+---
+
+## 源文件：learning/lesson-02-review.md
+
+# 第 02 单元：支架自重与重心——作答与反馈
+
+记录日期：2026-11-16。题目见 [课程讲义](https://github.com/Zakariyya/cad-teacher/blob/main/learning/lesson-02.md)。以下保留学习者原答，再记录计算、单位、方向和物理解释反馈。
+
+## A. 概念理解检查
+
+### 原答
+
+> 问题1：20
+>
+> 问题2：20
+>
+> 问题3：double
+>
+> 我的补充：
+
+### 反馈
+
+1. 均匀直杆长 40 cm，重心距左端 20 cm。正确：均匀直杆质量分布对称，重心位于中点。
+2. 2 kg 相机在本课取 (g=10\,m/s^2)，重力 (W=mg=20\,N)。正确。
+3. 力臂由 20 cm 增加到 40 cm，力不变，力矩 (M=Fd) 增加到两倍。正确。
+4. 补充解释留空，未评价学习者自己的语言表达。
+
+## B. 基础题：不带相机的均匀支架
+
+### 原答
+
+> 1、8n
+>
+> 2、0.2m
+>
+> 3、1.6N的顺时针
+>
+> 4、竖直上8n，逆时针1.6n
+
+### 反馈
+
+- 自重：(W=0.8\times10=8\,N)，方向竖直向下。数值正确，原答的单位大小写规范为 N。
+- 重心：(x_G=0.40/2=0.20\,m)。正确。
+- 支架自重力矩：(M_b=8\times0.20=1.6\,N\cdot m)，顺时针。数值和方向正确；原答写成 1.6 N，**力矩单位应为 N·m，不是 N**。
+- 固定端反力：(A_y=8\,N)，向上。正确。
+- 固定端反力矩：(M_A=1.6\,N\cdot m)，逆时针。数值和方向正确；原答中的力矩单位同样需要由 N 改为 N·m。
+
+平衡检查：
+[
+\sum F_y=8-8=0\,N
+]
+[
+\sum M_A=1.6-8\times0.20=0\,N\cdot m
+]
+
+## C. 工程应用题：相机移动到 0.10 m
+
+题设：均匀支架长 0.40 m、质量 0.6 kg；相机质量 1.5 kg；相机重心移到距 A 点 0.10 m；(g=10\,m/s^2)。
+
+### 原答
+
+> 1：15 N
+>
+> 2：1.5 N·m
+>
+> 3：21 N
+>
+> 4：2.7 N·m
+>
+> 补充思考：
+
+### 反馈
+
+四项数值全部正确。
+
+1. 相机重力：(W_c=1.5\times10=15\,N)，方向向下。数值正确；原答未写方向。
+2. 相机重力矩：(M_c=15\times0.10=1.5\,N\cdot m)，方向顺时针。数值和单位正确；原答未写方向。
+3. 固定端竖直反力：支架重力 (W_b=0.6\times10=6\,N)，相机重力 15 N，因此 (A_y=6+15=21\,N)，方向向上。数值正确；原答未写方向。
+4. 固定端反力矩：支架自重矩 (M_b=6\times0.20=1.2\,N\cdot m)，相机重力矩 (M_c=1.5\,N\cdot m)，合计 (M_A=2.7\,N\cdot m)，固定端反力矩方向逆时针。数值与单位正确；原答未写方向。
+
+### 补充思考的讲解（学习者原答留空）
+
+为什么相机移动后，竖直反力不变、反力矩会变？
+
+- **竖直反力由竖直方向合力决定**：支架仍重 6 N，相机仍重 15 N。相机移动没有改变质量或重力，所以总向下的力仍是 21 N，固定端仍需向上提供 21 N。
+- **力矩由力和力臂共同决定**：相机重量仍为 15 N，但力臂从 0.35 m 改成 0.10 m，因此相机力矩从 (15\times0.35=5.25\,N\cdot m) 降为 (15\times0.10=1.5\,N\cdot m)。支架自身的 1.2 N·m 不变，所以总反力矩从 6.45 N·m 降为 2.7 N·m。
+
+学习者补充思考留空，因此这段是导师讲解，不代表学习者已经用自己的话解释通过。
+
+## D. 当前学习判断
+
+- 已通过：质量转重力、均匀直杆重心、单载荷力矩、支架自重与相机载荷叠加、固定端静力平衡、移动负载后力矩变化的数值计算。
+- 已纠正：基础题中将力矩单位写成 N；正确单位为 N·m。
+- 后续巩固：每个力都标明方向，每个力矩都标明顺/逆时针；主动解释“竖直反力取决于合力、反力矩取决于力臂”。
+- 补充思考未作答，尚未评价独立物理解释能力。
+- **结论：第二课数值计算练习通过；物理解释表达待最后确认。** 不等于已掌握更复杂的多载荷、斜向力、非固定支撑、材料强度或动态工况。
+
+---
+
+## 源文件：learning/lesson-02-answer-key.json
+
+````json
+{
+  "concept_check": {
+    "uniform_rod_length_cm": 40,
+    "center_of_gravity_from_left_cm": 20,
+    "camera_mass_kg": 2,
+    "gravity_m_s2": 10,
+    "camera_weight_N": 20,
+    "lever_arm_change": "0.20 m to 0.40 m",
+    "moment_ratio_after_before": 2
+  },
+  "basic_problem": {
+    "bracket_mass_kg": 0.8,
+    "length_m": 0.4,
+    "gravity_m_s2": 10,
+    "bracket_weight_N": 8,
+    "bracket_weight_direction": "down",
+    "center_of_gravity_from_A_m": 0.2,
+    "support_vertical_reaction_N": 8,
+    "support_vertical_reaction_direction": "up",
+    "support_reaction_moment_Nm": 1.6,
+    "support_reaction_moment_direction": "counterclockwise",
+    "external_bracket_weight_moment_Nm": 1.6,
+    "external_bracket_weight_moment_direction": "clockwise",
+    "equilibrium_residuals": {
+      "Fy_N": 0,
+      "MA_Nm": 0
+    }
+  },
+  "application_camera_original_position": {
+    "bracket_mass_kg": 0.6,
+    "bracket_length_m": 0.4,
+    "camera_mass_kg": 1.5,
+    "camera_x_m": 0.35,
+    "gravity_m_s2": 10,
+    "bracket_weight_N": 6,
+    "camera_weight_N": 15,
+    "bracket_cg_x_m": 0.2,
+    "bracket_moment_Nm": 1.2,
+    "camera_moment_Nm": 5.25,
+    "support_vertical_reaction_N": 21,
+    "support_reaction_moment_Nm": 6.45
+  },
+  "application_camera_position_0_20_m": {
+    "camera_x_m": 0.2,
+    "camera_weight_N": 15,
+    "camera_moment_Nm": 3,
+    "bracket_moment_Nm": 1.2,
+    "support_vertical_reaction_N": 21,
+    "support_reaction_moment_Nm": 4.2
+  },
+  "application_camera_submitted_position": {
+    "camera_x_m": 0.1,
+    "camera_weight_N": 15,
+    "camera_moment_Nm": 1.5,
+    "camera_moment_direction": "clockwise",
+    "bracket_weight_N": 6,
+    "bracket_cg_x_m": 0.2,
+    "bracket_moment_Nm": 1.2,
+    "support_vertical_reaction_N": 21,
+    "support_vertical_reaction_direction": "up",
+    "support_reaction_moment_Nm": 2.7,
+    "support_reaction_moment_direction": "counterclockwise",
+    "equilibrium_residuals": {
+      "Fy_N": 0,
+      "MA_Nm": 0
+    }
+  }
+}
 ````
 
 ---
