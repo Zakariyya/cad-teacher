@@ -2,6 +2,12 @@
 
 目标：区分力与力矩，理解固定支撑的作用，能画简单受力图并检查平衡。
 
+## 教学资源来源
+
+- [mechanics-visuals：固定版本 SKILL.md](https://github.com/BaratiLab/mechanical-engineering-skills/blob/119b1a946e2ea43784f5d045057b59757a1a7dd1/skills/mechanics-visuals/SKILL.md)，本课具体依据 [受力图规范快照](../resources/vendor/baratilab/skills/mechanics-visuals/references/fbd_style.md)。
+- [worked-problem-generator：固定版本 SKILL.md](https://github.com/BaratiLab/mechanical-engineering-skills/blob/119b1a946e2ea43784f5d045057b59757a1a7dd1/skills/worked-problem-generator/SKILL.md)，本课具体依据 [习题模板快照](../resources/vendor/baratilab/skills/worked-problem-generator/references/problem_template.md)。
+- 本课实际执行的是仓库自有 `lesson-01.py`；上游 `mech_plots.py` 用于后续图示参考，未将其视为本课已运行证据。
+
 ## 已知条件、假设与适用范围
 
 对象：机器人上的水平相机支架，左端 A 固定，右端受到竖直向下 20 N 的力，作用位置距 A 为 0.30 m。

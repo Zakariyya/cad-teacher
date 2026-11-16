@@ -24,7 +24,7 @@ print('Demo:', json.dumps(demo))
 key = {'basic': solve(10,.20), 'application': solve(2*10,.25),
        'application_longer': solve(2*10,.50)}
 assert key['application_longer']['MA_Nm'] == 2 * key['application']['MA_Nm']
-(OUT/'lesson-01-answer-key.json').write_text(json.dumps(key,indent=2)+'\n')
+(OUT/'lesson-01-answer-key.json').write_text(json.dumps(key,indent=2)+'\n', encoding='utf-8', newline='\n')
 print('All exercises computed; force and moment residuals are zero.')
 print('Unit check: kg*m/s^2 = N; N*m = moment. No automatic unit checker.')
 svg = '''<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="440" viewBox="0 0 1000 440">
@@ -48,5 +48,5 @@ svg = '''<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="440" viewB
 <text x="65" y="280">+y ↑</text><text x="140" y="360">+x →</text>
 <text x="500" y="420" text-anchor="middle" font-size="18">静止、平面刚体、固定支撑、忽略支架自重；逆时针力矩为正</text>
 </g></svg>'''
-(OUT/'lesson-01-fbd.svg').write_text(svg)
+(OUT/'lesson-01-fbd.svg').write_text(svg, encoding='utf-8', newline='\n')
 print('SVG saved; this standard-library script does not render PNG. Not FEA.')

@@ -13,6 +13,8 @@
 
 ## 学习路线（每个阶段拆成多节课）
 
+本页保留首版学习目录；详细知识单元与阶段能力检查见 [长期课程路线](../curriculum/roadmap.md)。全部 Skill 的 GitHub 地址与固定版本见 [来源索引](../resources/skills.md)。原始教学要求见 [原始提示词](../prompts/original-request.md)。
+
 | 阶段 | 顺序与机器人对象 | 优先资源 |
 | --- | --- | --- |
 | 1 静力学入门 | 力与单位 → 力矩 → 支撑与受力图 → 平衡 → 多载荷与重心；相机支架、机械臂 | mechanics-visuals/references/fbd_style.md；worked-problem-generator/references/problem_template.md |

@@ -1,45 +1,77 @@
-# cad-teacher
+# cad-teacher · 机械工程与工业机器人学习教材
 
-面向有约 7 年 Java 后端经验、正在转向工业机器人开发的学习者，记录从基础力学到机器人系统集成的课程、练习、反馈与进度。
+为具有约 7 年 Java 后端经验的学习者，从机械、电路与动力学基础逐步走向机械设计、CAD、嵌入式、控制与 ROS 2 集成。
 
-## 从哪里继续
+**这是一份持续编写的教材。目前第一课已完成讲解、练习和反馈；其余是培养路线，不是已经写完的课程。** 下一课是支架自重与重心。
 
-- [学习进度](learning/progress.md)：每次恢复学习先读这里。
-- [完整学习目录与教学约定](learning/README.md)。
-- [第 01 单元：静止水平支架的受力分析](learning/lesson-01.md)。
-- [第 01 单元：学生作答与反馈](learning/lesson-01-review.md)。
-- [教学资源来源与环境状态](learning/resources.md)。
+## 开始阅读
 
-当前进度：第 01 单元的两道练习与概念追问已完成；下一单元是支架自重与重心，尚未开始。不以本次简化练习推断已掌握复杂结构分析。
+| 你要做什么 | 入口 |
+| --- | --- |
+| 继续上次学习 | [当前进度](learning/progress.md) |
+| 在 GPT 网页端使用 | [使用指南](docs/chatgpt-web.md) · [单文件上传包](learning/chatgpt-study-pack.txt) |
+| 查看最初要求 | [原始提示词，保留原文](prompts/original-request.md) |
+| 设置网页端导师 | [项目教学指令](prompts/project-instructions.md) · [恢复学习提示词](prompts/resume-learning.md) |
+| 查看完整培养路线 | [课程路线与能力检查](curriculum/roadmap.md) |
+| 阅读第一课 | [讲义](learning/lesson-01.md) · [作答反馈](learning/lesson-01-review.md) |
+| 找 Skill GitHub 地址 | [41 个 Skill 来源索引](resources/skills.md) · [版本登记表](resources/skill-sources.json) |
+| 维护与编写教材 | [目录职责](docs/project-structure.md) · [质量标准](docs/teaching-standard.md) · [新课模板](templates/lesson.md) |
 
-## 验证计算
+## Skill 来源
 
-第 01 单元仅需 Python 标准库：
+- [BaratiLab/mechanical-engineering-skills](https://github.com/BaratiLab/mechanical-engineering-skills)：基础图示、习题、材料、机械元件、CAD 与工程分析辅助工具。
+- [earthtojake/text-to-cad](https://github.com/earthtojake/text-to-cad)：CAD、工程图、FEA、机器人模型等工具。
+
+当前起步使用 [mechanics-visuals](https://github.com/BaratiLab/mechanical-engineering-skills/tree/main/skills/mechanics-visuals) 与 [worked-problem-generator](https://github.com/BaratiLab/mechanical-engineering-skills/tree/main/skills/worked-problem-generator)。本仓库收录最小许可快照和固定版本链接；不把提示词或源码链接等同于工具安装。
+
+## GPT 网页端最短使用路径
+
+1. 建立 `cad-teacher` Project，将 [项目教学指令](prompts/project-instructions.md) 放入项目指令。
+2. 下载并上传 [chatgpt-study-pack.txt](learning/chatgpt-study-pack.txt)。包含原始需求、当前进度、第一课与反馈、来源和起步 Skill 资源。
+3. 发送 [恢复学习提示词](prompts/resume-learning.md)，先确认进度，再开始一个知识单元。
+
+有 GitHub 连接时可按需读仓库；没有也能用上传包开展阅读、讲解与问答。Python、CAD 和仓库写入取决于当前实际工具，不保证任意网页会话都具备。网页端尚未在你的账号中实测，验收清单见使用指南。
+
+## 目录
+
+```text
+prompts/       原始请求、项目指令、恢复学习提示词
+curriculum/    课程路线与阶段能力目标
+learning/      讲义、作答、进度、图与代码、固定上传包
+resources/     Skill GitHub 地址、固定版本、最小许可快照
+templates/     讲义、反馈与验证模板
+tools/         上传包生成、文档与计算检查
+docs/          网页端指南、教学标准与维护设计
+```
+
+已有第一课文件及产物保持原路径。进度集中维护，上传包自动生成，避免多处手改产生不同版本。
+
+## 运行与验证
+
+仅需 Python 3.10+ 标准库即可执行当前课程和维护工具：
 
 ```bash
 python3 learning/lesson-01.py
+python3 tools/build_study_pack.py
+python3 tools/check_project.py
 ```
 
-脚本生成同目录下的受力图 SVG 和练习答案 JSON，并检查合力、合力矩残差。后续绘图与自动单位检查可安装：
+后续需要绘图和自动单位检查时，安装可选依赖：
 
 ```bash
 uv venv .venv
 uv pip install --python .venv/bin/python -r requirements.txt
 ```
 
-本仓库保留教学用 SVG 和计算结果，便于直接阅读；不提交虚拟环境、依赖缓存、凭据和运行日志。答案已在课堂完成后归档；后续新课仍先让学生作答，再展开答案。
+计算脚本检查静力平衡；检查工具验证本地链接、Skill 固定版本格式、第三方文件哈希、练习结果、SVG 和上传包新鲜度。它不代替 CAD、FEA、实物或网页端验收。
 
-## GitHub 仓库
-
-仓库：[Zakariyya/cad-teacher](https://github.com/Zakariyya/cad-teacher)。在其他电脑获取学习资料：
+## 更新与同步
 
 ```bash
 git clone https://github.com/Zakariyya/cad-teacher.git
 cd cad-teacher
 ```
 
-后续使用中文提交信息，持续更新同一份学习目录、课程与进度文件。
+每课保留原答和纠正，更新 `learning/progress.md`，重建上传包后用中文提交。已有仓库可运行 `bash publish-github.sh` 检查、提交本教材文件并推送，不创建仓库、不强推。上传包也应替换为最新版本。
 
-## 验证边界
-
-几何验证、力学估算、仿真验证、实物验证分别记录。当前只有理想静力模型的计算核算，没有进行 CAD 几何、有限元或实物验证，不能据此判定实际支架安全。
+[第三方许可声明](resources/THIRD_PARTY_NOTICES.md)。不提交虚拟环境、缓存、凭据或无关临时文件。工程判断区分几何验证、力学估算、仿真验证和实物验证。

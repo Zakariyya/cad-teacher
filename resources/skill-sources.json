@@ -1,0 +1,344 @@
+{
+  "schema_version": 1,
+  "repositories": [
+    {
+      "repository": "BaratiLab/mechanical-engineering-skills",
+      "commit": "119b1a946e2ea43784f5d045057b59757a1a7dd1",
+      "verified_at": "2026-11-14",
+      "skills": [
+        {
+          "name": "agentscad-fdm-dfam",
+          "path": "skills/agentscad-fdm-dfam/SKILL.md",
+          "git_blob_sha": "a813cf59dd909de9de9c40c0809149389615b853",
+          "url": "https://github.com/BaratiLab/mechanical-engineering-skills/blob/119b1a946e2ea43784f5d045057b59757a1a7dd1/skills/agentscad-fdm-dfam/SKILL.md",
+          "directory_url": "https://github.com/BaratiLab/mechanical-engineering-skills/tree/main/skills/agentscad-fdm-dfam"
+        },
+        {
+          "name": "am-alloy-screening",
+          "path": "skills/am-alloy-screening/SKILL.md",
+          "git_blob_sha": "06e0ebd873bcf5bc0e78069101a7761b6f2d1def",
+          "url": "https://github.com/BaratiLab/mechanical-engineering-skills/blob/119b1a946e2ea43784f5d045057b59757a1a7dd1/skills/am-alloy-screening/SKILL.md",
+          "directory_url": "https://github.com/BaratiLab/mechanical-engineering-skills/tree/main/skills/am-alloy-screening"
+        },
+        {
+          "name": "am-literature-rag",
+          "path": "skills/am-literature-rag/SKILL.md",
+          "git_blob_sha": "6a51b43587fa5419ad748921b88628d9e8fd3e08",
+          "url": "https://github.com/BaratiLab/mechanical-engineering-skills/blob/119b1a946e2ea43784f5d045057b59757a1a7dd1/skills/am-literature-rag/SKILL.md",
+          "directory_url": "https://github.com/BaratiLab/mechanical-engineering-skills/tree/main/skills/am-literature-rag"
+        },
+        {
+          "name": "cadsmith-text-to-cad",
+          "path": "skills/cadsmith-text-to-cad/SKILL.md",
+          "git_blob_sha": "dda69b38ba63508258e572e8060d55010264108a",
+          "url": "https://github.com/BaratiLab/mechanical-engineering-skills/blob/119b1a946e2ea43784f5d045057b59757a1a7dd1/skills/cadsmith-text-to-cad/SKILL.md",
+          "directory_url": "https://github.com/BaratiLab/mechanical-engineering-skills/tree/main/skills/cadsmith-text-to-cad"
+        },
+        {
+          "name": "cfd-simulation-setup",
+          "path": "skills/cfd-simulation-setup/SKILL.md",
+          "git_blob_sha": "b7d635c2a636135e88ef9597154b68f8a2756845",
+          "url": "https://github.com/BaratiLab/mechanical-engineering-skills/blob/119b1a946e2ea43784f5d045057b59757a1a7dd1/skills/cfd-simulation-setup/SKILL.md",
+          "directory_url": "https://github.com/BaratiLab/mechanical-engineering-skills/tree/main/skills/cfd-simulation-setup"
+        },
+        {
+          "name": "design-review-package",
+          "path": "skills/design-review-package/SKILL.md",
+          "git_blob_sha": "743e879e0370af14935d52795142bcbb873da48b",
+          "url": "https://github.com/BaratiLab/mechanical-engineering-skills/blob/119b1a946e2ea43784f5d045057b59757a1a7dd1/skills/design-review-package/SKILL.md",
+          "directory_url": "https://github.com/BaratiLab/mechanical-engineering-skills/tree/main/skills/design-review-package"
+        },
+        {
+          "name": "dfm-review",
+          "path": "skills/dfm-review/SKILL.md",
+          "git_blob_sha": "4f216a8cb0a175e3749dcf3a52c979c163e88492",
+          "url": "https://github.com/BaratiLab/mechanical-engineering-skills/blob/119b1a946e2ea43784f5d045057b59757a1a7dd1/skills/dfm-review/SKILL.md",
+          "directory_url": "https://github.com/BaratiLab/mechanical-engineering-skills/tree/main/skills/dfm-review"
+        },
+        {
+          "name": "drawing-gdt-review",
+          "path": "skills/drawing-gdt-review/SKILL.md",
+          "git_blob_sha": "30ca26f7f1ba1cace1e1caeba0129936bbe78a6c",
+          "url": "https://github.com/BaratiLab/mechanical-engineering-skills/blob/119b1a946e2ea43784f5d045057b59757a1a7dd1/skills/drawing-gdt-review/SKILL.md",
+          "directory_url": "https://github.com/BaratiLab/mechanical-engineering-skills/tree/main/skills/drawing-gdt-review"
+        },
+        {
+          "name": "engineering-calc-report",
+          "path": "skills/engineering-calc-report/SKILL.md",
+          "git_blob_sha": "d9a3bc299b742d05e87c2068a2a9634e56a028f3",
+          "url": "https://github.com/BaratiLab/mechanical-engineering-skills/blob/119b1a946e2ea43784f5d045057b59757a1a7dd1/skills/engineering-calc-report/SKILL.md",
+          "directory_url": "https://github.com/BaratiLab/mechanical-engineering-skills/tree/main/skills/engineering-calc-report"
+        },
+        {
+          "name": "equation-discovery",
+          "path": "skills/equation-discovery/SKILL.md",
+          "git_blob_sha": "585e86bd7d54e4020bbaad72da8ca64a35bb724d",
+          "url": "https://github.com/BaratiLab/mechanical-engineering-skills/blob/119b1a946e2ea43784f5d045057b59757a1a7dd1/skills/equation-discovery/SKILL.md",
+          "directory_url": "https://github.com/BaratiLab/mechanical-engineering-skills/tree/main/skills/equation-discovery"
+        },
+        {
+          "name": "image2gcode",
+          "path": "skills/image2gcode/SKILL.md",
+          "git_blob_sha": "d5cef4d9e02abb0b6303262e1011e771e80be767",
+          "url": "https://github.com/BaratiLab/mechanical-engineering-skills/blob/119b1a946e2ea43784f5d045057b59757a1a7dd1/skills/image2gcode/SKILL.md",
+          "directory_url": "https://github.com/BaratiLab/mechanical-engineering-skills/tree/main/skills/image2gcode"
+        },
+        {
+          "name": "lattice-inverse-design",
+          "path": "skills/lattice-inverse-design/SKILL.md",
+          "git_blob_sha": "546d2897b48ab33ee1510019d44445d006833e6c",
+          "url": "https://github.com/BaratiLab/mechanical-engineering-skills/blob/119b1a946e2ea43784f5d045057b59757a1a7dd1/skills/lattice-inverse-design/SKILL.md",
+          "directory_url": "https://github.com/BaratiLab/mechanical-engineering-skills/tree/main/skills/lattice-inverse-design"
+        },
+        {
+          "name": "linkage-synthesis",
+          "path": "skills/linkage-synthesis/SKILL.md",
+          "git_blob_sha": "9762287a04cb87b5a651888dc55449a86fad10d6",
+          "url": "https://github.com/BaratiLab/mechanical-engineering-skills/blob/119b1a946e2ea43784f5d045057b59757a1a7dd1/skills/linkage-synthesis/SKILL.md",
+          "directory_url": "https://github.com/BaratiLab/mechanical-engineering-skills/tree/main/skills/linkage-synthesis"
+        },
+        {
+          "name": "llm-3d-print-monitor",
+          "path": "skills/llm-3d-print-monitor/SKILL.md",
+          "git_blob_sha": "a5b1e92ed5857ba975196b13069d3cb846523acc",
+          "url": "https://github.com/BaratiLab/mechanical-engineering-skills/blob/119b1a946e2ea43784f5d045057b59757a1a7dd1/skills/llm-3d-print-monitor/SKILL.md",
+          "directory_url": "https://github.com/BaratiLab/mechanical-engineering-skills/tree/main/skills/llm-3d-print-monitor"
+        },
+        {
+          "name": "llm-mechanical-designer",
+          "path": "skills/llm-mechanical-designer/SKILL.md",
+          "git_blob_sha": "7ecfdefeaea6d3c3f111b40ef8324195dbd5b11a",
+          "url": "https://github.com/BaratiLab/mechanical-engineering-skills/blob/119b1a946e2ea43784f5d045057b59757a1a7dd1/skills/llm-mechanical-designer/SKILL.md",
+          "directory_url": "https://github.com/BaratiLab/mechanical-engineering-skills/tree/main/skills/llm-mechanical-designer"
+        },
+        {
+          "name": "lpbf-defect-prediction",
+          "path": "skills/lpbf-defect-prediction/SKILL.md",
+          "git_blob_sha": "0f5d92ebe903808b582395a7d5d9bde54f953262",
+          "url": "https://github.com/BaratiLab/mechanical-engineering-skills/blob/119b1a946e2ea43784f5d045057b59757a1a7dd1/skills/lpbf-defect-prediction/SKILL.md",
+          "directory_url": "https://github.com/BaratiLab/mechanical-engineering-skills/tree/main/skills/lpbf-defect-prediction"
+        },
+        {
+          "name": "lpbf-superres",
+          "path": "skills/lpbf-superres/SKILL.md",
+          "git_blob_sha": "29586aa4cf2b91fb4143d32e8162f5369f46ba73",
+          "url": "https://github.com/BaratiLab/mechanical-engineering-skills/blob/119b1a946e2ea43784f5d045057b59757a1a7dd1/skills/lpbf-superres/SKILL.md",
+          "directory_url": "https://github.com/BaratiLab/mechanical-engineering-skills/tree/main/skills/lpbf-superres"
+        },
+        {
+          "name": "machine-element-sizing",
+          "path": "skills/machine-element-sizing/SKILL.md",
+          "git_blob_sha": "5bd871438582021e435f4a0b58e142048ce2b996",
+          "url": "https://github.com/BaratiLab/mechanical-engineering-skills/blob/119b1a946e2ea43784f5d045057b59757a1a7dd1/skills/machine-element-sizing/SKILL.md",
+          "directory_url": "https://github.com/BaratiLab/mechanical-engineering-skills/tree/main/skills/machine-element-sizing"
+        },
+        {
+          "name": "material-selection",
+          "path": "skills/material-selection/SKILL.md",
+          "git_blob_sha": "b733ec2e38df3e71bfb9a287746ca4941eb86799",
+          "url": "https://github.com/BaratiLab/mechanical-engineering-skills/blob/119b1a946e2ea43784f5d045057b59757a1a7dd1/skills/material-selection/SKILL.md",
+          "directory_url": "https://github.com/BaratiLab/mechanical-engineering-skills/tree/main/skills/material-selection"
+        },
+        {
+          "name": "mechanical-teardown",
+          "path": "skills/mechanical-teardown/SKILL.md",
+          "git_blob_sha": "c989cefd1424ac9e184a7ca31f07d425bfb7f152",
+          "url": "https://github.com/BaratiLab/mechanical-engineering-skills/blob/119b1a946e2ea43784f5d045057b59757a1a7dd1/skills/mechanical-teardown/SKILL.md",
+          "directory_url": "https://github.com/BaratiLab/mechanical-engineering-skills/tree/main/skills/mechanical-teardown"
+        },
+        {
+          "name": "mechanics-visuals",
+          "path": "skills/mechanics-visuals/SKILL.md",
+          "git_blob_sha": "9a937db7a5b8d51ed7f816441343da72fec85ef0",
+          "url": "https://github.com/BaratiLab/mechanical-engineering-skills/blob/119b1a946e2ea43784f5d045057b59757a1a7dd1/skills/mechanics-visuals/SKILL.md",
+          "directory_url": "https://github.com/BaratiLab/mechanical-engineering-skills/tree/main/skills/mechanics-visuals"
+        },
+        {
+          "name": "meltpool-geometry",
+          "path": "skills/meltpool-geometry/SKILL.md",
+          "git_blob_sha": "e54a297162789d7a41bc37b2dd10e1187626720c",
+          "url": "https://github.com/BaratiLab/mechanical-engineering-skills/blob/119b1a946e2ea43784f5d045057b59757a1a7dd1/skills/meltpool-geometry/SKILL.md",
+          "directory_url": "https://github.com/BaratiLab/mechanical-engineering-skills/tree/main/skills/meltpool-geometry"
+        },
+        {
+          "name": "parametric-part-cad",
+          "path": "skills/parametric-part-cad/SKILL.md",
+          "git_blob_sha": "7bac4aeee7ed2af69aa25ec43e312217a9367cab",
+          "url": "https://github.com/BaratiLab/mechanical-engineering-skills/blob/119b1a946e2ea43784f5d045057b59757a1a7dd1/skills/parametric-part-cad/SKILL.md",
+          "directory_url": "https://github.com/BaratiLab/mechanical-engineering-skills/tree/main/skills/parametric-part-cad"
+        },
+        {
+          "name": "query2cad-freecad",
+          "path": "skills/query2cad-freecad/SKILL.md",
+          "git_blob_sha": "848cd6bb8f0b7375819e33097e97aedf9546c480",
+          "url": "https://github.com/BaratiLab/mechanical-engineering-skills/blob/119b1a946e2ea43784f5d045057b59757a1a7dd1/skills/query2cad-freecad/SKILL.md",
+          "directory_url": "https://github.com/BaratiLab/mechanical-engineering-skills/tree/main/skills/query2cad-freecad"
+        },
+        {
+          "name": "quick-fea",
+          "path": "skills/quick-fea/SKILL.md",
+          "git_blob_sha": "2192876bc4655a970331a62cb70a458699d88dce",
+          "url": "https://github.com/BaratiLab/mechanical-engineering-skills/blob/119b1a946e2ea43784f5d045057b59757a1a7dd1/skills/quick-fea/SKILL.md",
+          "directory_url": "https://github.com/BaratiLab/mechanical-engineering-skills/tree/main/skills/quick-fea"
+        },
+        {
+          "name": "rocketsmith",
+          "path": "skills/rocketsmith/SKILL.md",
+          "git_blob_sha": "fc0a8121e6275b1db5c3e47be52ace465b6ad71f",
+          "url": "https://github.com/BaratiLab/mechanical-engineering-skills/blob/119b1a946e2ea43784f5d045057b59757a1a7dd1/skills/rocketsmith/SKILL.md",
+          "directory_url": "https://github.com/BaratiLab/mechanical-engineering-skills/tree/main/skills/rocketsmith"
+        },
+        {
+          "name": "sketch-to-cad",
+          "path": "skills/sketch-to-cad/SKILL.md",
+          "git_blob_sha": "1b76dbc50e0666b4d88bd89bf9c786d0d75970b4",
+          "url": "https://github.com/BaratiLab/mechanical-engineering-skills/blob/119b1a946e2ea43784f5d045057b59757a1a7dd1/skills/sketch-to-cad/SKILL.md",
+          "directory_url": "https://github.com/BaratiLab/mechanical-engineering-skills/tree/main/skills/sketch-to-cad"
+        },
+        {
+          "name": "sls-process-optimization",
+          "path": "skills/sls-process-optimization/SKILL.md",
+          "git_blob_sha": "126c6a1942c95feee37028eecb6d34581864334a",
+          "url": "https://github.com/BaratiLab/mechanical-engineering-skills/blob/119b1a946e2ea43784f5d045057b59757a1a7dd1/skills/sls-process-optimization/SKILL.md",
+          "directory_url": "https://github.com/BaratiLab/mechanical-engineering-skills/tree/main/skills/sls-process-optimization"
+        },
+        {
+          "name": "stress-field-surrogate",
+          "path": "skills/stress-field-surrogate/SKILL.md",
+          "git_blob_sha": "6087f9d16e53e9e905f141a6707111a604af8787",
+          "url": "https://github.com/BaratiLab/mechanical-engineering-skills/blob/119b1a946e2ea43784f5d045057b59757a1a7dd1/skills/stress-field-surrogate/SKILL.md",
+          "directory_url": "https://github.com/BaratiLab/mechanical-engineering-skills/tree/main/skills/stress-field-surrogate"
+        },
+        {
+          "name": "thermal-fluids-calc",
+          "path": "skills/thermal-fluids-calc/SKILL.md",
+          "git_blob_sha": "74b201d2e5b59e7ce054576ac901c624c9e44e95",
+          "url": "https://github.com/BaratiLab/mechanical-engineering-skills/blob/119b1a946e2ea43784f5d045057b59757a1a7dd1/skills/thermal-fluids-calc/SKILL.md",
+          "directory_url": "https://github.com/BaratiLab/mechanical-engineering-skills/tree/main/skills/thermal-fluids-calc"
+        },
+        {
+          "name": "thermal-porosity",
+          "path": "skills/thermal-porosity/SKILL.md",
+          "git_blob_sha": "2c3d6f1e08c7d81b97b02a565c0e0d2851d9c6e5",
+          "url": "https://github.com/BaratiLab/mechanical-engineering-skills/blob/119b1a946e2ea43784f5d045057b59757a1a7dd1/skills/thermal-porosity/SKILL.md",
+          "directory_url": "https://github.com/BaratiLab/mechanical-engineering-skills/tree/main/skills/thermal-porosity"
+        },
+        {
+          "name": "tolerance-stackup",
+          "path": "skills/tolerance-stackup/SKILL.md",
+          "git_blob_sha": "947977853d016eb6c1e2ecc0b7508f5b14880f41",
+          "url": "https://github.com/BaratiLab/mechanical-engineering-skills/blob/119b1a946e2ea43784f5d045057b59757a1a7dd1/skills/tolerance-stackup/SKILL.md",
+          "directory_url": "https://github.com/BaratiLab/mechanical-engineering-skills/tree/main/skills/tolerance-stackup"
+        },
+        {
+          "name": "worked-problem-generator",
+          "path": "skills/worked-problem-generator/SKILL.md",
+          "git_blob_sha": "b067d9b072e16b4700d9b9a3f56dbae677e10119",
+          "url": "https://github.com/BaratiLab/mechanical-engineering-skills/blob/119b1a946e2ea43784f5d045057b59757a1a7dd1/skills/worked-problem-generator/SKILL.md",
+          "directory_url": "https://github.com/BaratiLab/mechanical-engineering-skills/tree/main/skills/worked-problem-generator"
+        }
+      ]
+    },
+    {
+      "repository": "earthtojake/text-to-cad",
+      "commit": "337ac4e3c820d37b14eff30f337f82fbf75343c6",
+      "verified_at": "2026-11-14",
+      "skills": [
+        {
+          "name": "cad",
+          "path": "skills/cad/SKILL.md",
+          "git_blob_sha": "e893701544a61d8def8217f6fe73a3a2d19d305e",
+          "url": "https://github.com/earthtojake/text-to-cad/blob/337ac4e3c820d37b14eff30f337f82fbf75343c6/skills/cad/SKILL.md",
+          "directory_url": "https://github.com/earthtojake/text-to-cad/tree/main/skills/cad"
+        },
+        {
+          "name": "engineering-drawing",
+          "path": "skills/engineering-drawing/SKILL.md",
+          "git_blob_sha": "39c7cb310276c6e36cf4bc86ac1a98d86f05520c",
+          "url": "https://github.com/earthtojake/text-to-cad/blob/337ac4e3c820d37b14eff30f337f82fbf75343c6/skills/engineering-drawing/SKILL.md",
+          "directory_url": "https://github.com/earthtojake/text-to-cad/tree/main/skills/engineering-drawing"
+        },
+        {
+          "name": "fea",
+          "path": "skills/fea/SKILL.md",
+          "git_blob_sha": "965e051c904c26a9224084db0c0c7d0e74fe37d6",
+          "url": "https://github.com/earthtojake/text-to-cad/blob/337ac4e3c820d37b14eff30f337f82fbf75343c6/skills/fea/SKILL.md",
+          "directory_url": "https://github.com/earthtojake/text-to-cad/tree/main/skills/fea"
+        },
+        {
+          "name": "pcb",
+          "path": "skills/pcb/SKILL.md",
+          "git_blob_sha": "afca5b8a7fc377063e0430086f5480b27e0e3dcf",
+          "url": "https://github.com/earthtojake/text-to-cad/blob/337ac4e3c820d37b14eff30f337f82fbf75343c6/skills/pcb/SKILL.md",
+          "directory_url": "https://github.com/earthtojake/text-to-cad/tree/main/skills/pcb"
+        },
+        {
+          "name": "print3d",
+          "path": "skills/print3d/SKILL.md",
+          "git_blob_sha": "38a022897de7c69bd3ffd982c65582ad2c545c41",
+          "url": "https://github.com/earthtojake/text-to-cad/blob/337ac4e3c820d37b14eff30f337f82fbf75343c6/skills/print3d/SKILL.md",
+          "directory_url": "https://github.com/earthtojake/text-to-cad/tree/main/skills/print3d"
+        },
+        {
+          "name": "render",
+          "path": "skills/render/SKILL.md",
+          "git_blob_sha": "62eab6c7753ef6028300fe7fc67833336b08710c",
+          "url": "https://github.com/earthtojake/text-to-cad/blob/337ac4e3c820d37b14eff30f337f82fbf75343c6/skills/render/SKILL.md",
+          "directory_url": "https://github.com/earthtojake/text-to-cad/tree/main/skills/render"
+        },
+        {
+          "name": "robot-simulation",
+          "path": "skills/robot-simulation/SKILL.md",
+          "git_blob_sha": "5f654b7e3809d1951239e9aca3e726b2a64efe1b",
+          "url": "https://github.com/earthtojake/text-to-cad/blob/337ac4e3c820d37b14eff30f337f82fbf75343c6/skills/robot-simulation/SKILL.md",
+          "directory_url": "https://github.com/earthtojake/text-to-cad/tree/main/skills/robot-simulation"
+        },
+        {
+          "name": "sendcutsend",
+          "path": "skills/sendcutsend/SKILL.md",
+          "git_blob_sha": "3428bfadb822550eb5f625c7848ef20457f16a6a",
+          "url": "https://github.com/earthtojake/text-to-cad/blob/337ac4e3c820d37b14eff30f337f82fbf75343c6/skills/sendcutsend/SKILL.md",
+          "directory_url": "https://github.com/earthtojake/text-to-cad/tree/main/skills/sendcutsend"
+        }
+      ]
+    }
+  ],
+  "snapshots": [
+    {
+      "path": "resources/vendor/baratilab/LICENSE",
+      "upstream_path": "LICENSE",
+      "git_blob_sha": "811b884241b77b3433de4d4917937b00da58b3eb",
+      "url": "https://github.com/BaratiLab/mechanical-engineering-skills/blob/119b1a946e2ea43784f5d045057b59757a1a7dd1/LICENSE"
+    },
+    {
+      "path": "resources/vendor/baratilab/skills/mechanics-visuals/SKILL.md",
+      "upstream_path": "skills/mechanics-visuals/SKILL.md",
+      "git_blob_sha": "9a937db7a5b8d51ed7f816441343da72fec85ef0",
+      "url": "https://github.com/BaratiLab/mechanical-engineering-skills/blob/119b1a946e2ea43784f5d045057b59757a1a7dd1/skills/mechanics-visuals/SKILL.md"
+    },
+    {
+      "path": "resources/vendor/baratilab/skills/mechanics-visuals/references/fbd_style.md",
+      "upstream_path": "skills/mechanics-visuals/references/fbd_style.md",
+      "git_blob_sha": "e785cd85bc5a63b06093be533328f69a94e11561",
+      "url": "https://github.com/BaratiLab/mechanical-engineering-skills/blob/119b1a946e2ea43784f5d045057b59757a1a7dd1/skills/mechanics-visuals/references/fbd_style.md"
+    },
+    {
+      "path": "resources/vendor/baratilab/skills/mechanics-visuals/scripts/mech_plots.py",
+      "upstream_path": "skills/mechanics-visuals/scripts/mech_plots.py",
+      "git_blob_sha": "7ce7672e7e83f9a8e066321c1da31eae399808e6",
+      "url": "https://github.com/BaratiLab/mechanical-engineering-skills/blob/119b1a946e2ea43784f5d045057b59757a1a7dd1/skills/mechanics-visuals/scripts/mech_plots.py"
+    },
+    {
+      "path": "resources/vendor/baratilab/skills/worked-problem-generator/SKILL.md",
+      "upstream_path": "skills/worked-problem-generator/SKILL.md",
+      "git_blob_sha": "b067d9b072e16b4700d9b9a3f56dbae677e10119",
+      "url": "https://github.com/BaratiLab/mechanical-engineering-skills/blob/119b1a946e2ea43784f5d045057b59757a1a7dd1/skills/worked-problem-generator/SKILL.md"
+    },
+    {
+      "path": "resources/vendor/baratilab/skills/worked-problem-generator/references/problem_template.md",
+      "upstream_path": "skills/worked-problem-generator/references/problem_template.md",
+      "git_blob_sha": "92df1542c692bc8a2b550781b5410bb9d58e30ba",
+      "url": "https://github.com/BaratiLab/mechanical-engineering-skills/blob/119b1a946e2ea43784f5d045057b59757a1a7dd1/skills/worked-problem-generator/references/problem_template.md"
+    }
+  ]
+}

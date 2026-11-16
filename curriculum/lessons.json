@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "lessons": [
+    {
+      "id": "01",
+      "title": "静止水平支架的受力分析",
+      "lesson": "learning/lesson-01.md",
+      "feedback_published": true,
+      "feedback": "learning/lesson-01-review.md",
+      "solution_script": "learning/lesson-01.py",
+      "answer_key": "learning/lesson-01-answer-key.json"
+    }
+  ]
+}
