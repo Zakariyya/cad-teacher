@@ -32,4 +32,3 @@
 - 设计交付：engineering-calc-report、dfm-review、design-review-package。
 
 所有真实链接、固定版本和进阶工具分类见 [Skill 来源索引](../resources/skills.md)。机械工具之外的课程，在编写时补充对应官方来源；此处不提前声称完成资料验证。
-\n
