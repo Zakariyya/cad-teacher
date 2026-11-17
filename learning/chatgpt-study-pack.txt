@@ -7,15 +7,15 @@
 缺少运行工具时明确未运行；不能写 GitHub 时输出待回写更新。
 图的链接供在线查看；离线时使用讲义中的对象、尺寸、方向和方程重画受力图。
 权威进度：https://github.com/Zakariyya/cad-teacher/blob/main/learning/progress.md
-源文件集合 SHA-256：96487ba49debd1aa000c14b94d6ed2164d3bf3bc619b59d3c0d232c6ed4c5b11
+源文件集合 SHA-256：d97116f00301122bed7d6a2d8b90e57ff272977ee493c471fe070a5df4257b7f
 
 ## 内嵌源文件与 SHA-256
 - prompts/project-instructions.md: 9e7a26c101a74e5d0cfadf68bdd67be58377479997d4bc4204d05d138c636e62
 - prompts/original-request.md: 4d535be9f4d1aae136b26363083351dec3195ab48c1162de5fe98d8e3096e32b
 - prompts/resume-learning.md: 02a360bd3294a5f9ca8aae44a515339fc56751160721aa109e29ff53aad52739
-- learning/progress.md: 66c9663998c5343985766f410346d1a0cfe0fc80edbeee961d35f8c565e1e9c9
-- curriculum/roadmap.md: eca4565478c8aae83eb0e9e5bb62ec9f0375c0d2ee257f4aaed5a9767246847e
-- curriculum/lessons.json: b083ace0668cd838b5c33265129968f63dd506459e155d5677bf6fc4a5f3033e
+- learning/progress.md: 87e4dc3e58d740f763afda350e2d2954bde08eb910d788a9b7f361437bd9e659
+- curriculum/roadmap.md: 3598d0501ca97cf434e04a66a7a67f8da56d13a9966e6a13d5e68a44842a650e
+- curriculum/lessons.json: 5f9888b533bdbb2bbd13ae4f4dc926b27c959019fc8858cf5b0c5f019c11bfa9
 - learning/resources.md: aa8eff0171f262007dd3edc34e61af7df7c15622ae93c7336eefd7d61dde8340
 - learning/lesson-01.md: 620de72d45b8c5585e5d954791652e930531610646fa355fe56cd156124500f8
 - learning/lesson-01-review.md: 5f4500b5ccc55a6693089773f451704ffcadedd02a9a6de77eb7c85cd7f8b400
@@ -25,8 +25,8 @@
 - learning/lesson-02.py: 9149b480153d3c9e01706c1d3c0915fdd79fe38e54e1caaf5e1eb605fb963d08
 - learning/lesson-02-review.md: 66dc106644b64e536a27eb566586431df46c74523ae30f61b707fbc38fcee4cb
 - learning/lesson-02-answer-key.json: efe6bee5ffcd00da329dd8acd854b05bb865fb49b27bbf3f38d87eee62cf2331
-- learning/lesson-03.md: 542b9ecbabfa843b216395d616f1243042464dca941d64d4a52478c4366bb4d6
-- learning/lesson-03.py: 9c0f24b14501015d0303a76549e5d855fbb7fabdd94d116d3a3c7ac7480d2cac
+- learning/lesson-03.md: a81a680a97a0c9a2b62a59d6f2796ec0693f34c7378687891f306551677a43c9
+- learning/lesson-03.py: 5834b70524b6749e679e0de9c6da2bfab219d93c357040c5d8bda79fc642ac2b
 - docs/teaching-standard.md: e157413e81d7690a9f74ac6c20bddead64a91c2cd65ce7a10e946eed4f92137a
 - resources/skills.md: 064e88f7e35386749944f62aa5be4b7abb7944e8674a78f3c1b61126d1e6e40a
 - resources/THIRD_PARTY_NOTICES.md: 8c6c90522dbf943913d3accb4c7a667eda3e88914391e0850f52c101ad86c8fc
