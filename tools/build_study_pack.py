@@ -75,7 +75,7 @@ def build():
     contents = [(path, (ROOT / path).read_bytes()) for path in sources]
     fingerprint = hashlib.sha256()
     for path, raw in contents:
-        fingerprint.update(path.encode() + b'\0' + raw + b'\0')
+        fingerprint.update(path.encode() + b'\0' + hashlib.sha256(raw).digest() + b'\0')
     lines = [
         '# cad-teacher 网页端学习包',
         '',

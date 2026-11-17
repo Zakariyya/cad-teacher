@@ -14,7 +14,8 @@
 | 设置网页端导师 | [项目教学指令](prompts/project-instructions.md) · [恢复学习提示词](prompts/resume-learning.md) |
 | 查看完整培养路线 | [课程路线与能力检查](curriculum/roadmap.md) |
 | 阅读第一课 | [讲义](learning/lesson-01.md) · [作答反馈](learning/lesson-01-review.md) |
-| 阅读第二课：支架自重与重心 | [讲义](learning/lesson-02.md) · [作答反馈](learning/lesson-02-review.md) · [示例代码](learning/lesson-02.py) · [验证记录](learning/lesson-02-verification.md) |\n| 学习第三课：多载荷平衡 | [讲义](learning/lesson-03.md) · [受力图](learning/lesson-03-fbd.svg) · [示例代码](learning/lesson-03.py) |
+| 阅读第二课：支架自重与重心 | [讲义](learning/lesson-02.md) · [作答反馈](learning/lesson-02-review.md) · [示例代码](learning/lesson-02.py) · [验证记录](learning/lesson-02-verification.md) |
+| 学习第三课：多载荷平衡 | [讲义](learning/lesson-03.md) · [受力图](learning/lesson-03-fbd.svg) · [示例代码](learning/lesson-03.py) |
 | 找 Skill GitHub 地址 | [41 个 Skill 来源索引](resources/skills.md) · [版本登记表](resources/skill-sources.json) |
 | 维护与编写教材 | [目录职责](docs/project-structure.md) · [质量标准](docs/teaching-standard.md) · [新课模板](templates/lesson.md) |
 
