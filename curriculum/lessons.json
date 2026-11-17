@@ -18,6 +18,13 @@
       "feedback": "learning/lesson-02-review.md",
       "example_script": "learning/lesson-02.py",
       "answer_key": "learning/lesson-02-answer-key.json"
+    },
+    {
+      "id": "03",
+      "title": "多载荷平衡",
+      "lesson": "learning/lesson-03.md",
+      "feedback_published": false,
+      "example_script": "learning/lesson-03.py"
     }
   ]
-}
+}\n

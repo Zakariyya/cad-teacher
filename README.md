@@ -2,7 +2,7 @@
 
 为具有约 7 年 Java 后端经验的学习者，从机械、电路与动力学基础逐步走向机械设计、CAD、嵌入式、控制与 ROS 2 集成。
 
-**这是一份持续编写的教材。第一课已完成讲解与反馈；第二课「支架自重与重心」已完成讲解、数值练习和物理解释，反馈与进度已记录；其余课程仍是培养路线。**
+**这是一份持续编写的教材。第一课已完成讲解与反馈；第二课「支架自重与重心」已完成；第三课「多载荷平衡」讲义、示例和练习已发布，等待作答；其余课程仍是培养路线。**
 
 ## 开始阅读
 
@@ -14,7 +14,7 @@
 | 设置网页端导师 | [项目教学指令](prompts/project-instructions.md) · [恢复学习提示词](prompts/resume-learning.md) |
 | 查看完整培养路线 | [课程路线与能力检查](curriculum/roadmap.md) |
 | 阅读第一课 | [讲义](learning/lesson-01.md) · [作答反馈](learning/lesson-01-review.md) |
-| 阅读第二课：支架自重与重心 | [讲义](learning/lesson-02.md) · [作答反馈](learning/lesson-02-review.md) · [示例代码](learning/lesson-02.py) · [验证记录](learning/lesson-02-verification.md) |
+| 阅读第二课：支架自重与重心 | [讲义](learning/lesson-02.md) · [作答反馈](learning/lesson-02-review.md) · [示例代码](learning/lesson-02.py) · [验证记录](learning/lesson-02-verification.md) |\n| 学习第三课：多载荷平衡 | [讲义](learning/lesson-03.md) · [受力图](learning/lesson-03-fbd.svg) · [示例代码](learning/lesson-03.py) |
 | 找 Skill GitHub 地址 | [41 个 Skill 来源索引](resources/skills.md) · [版本登记表](resources/skill-sources.json) |
 | 维护与编写教材 | [目录职责](docs/project-structure.md) · [质量标准](docs/teaching-standard.md) · [新课模板](templates/lesson.md) |
 
@@ -28,7 +28,7 @@
 ## GPT 网页端最短使用路径
 
 1. 建立 `cad-teacher` Project，将 [项目教学指令](prompts/project-instructions.md) 放入项目指令。
-2. 下载并上传 [chatgpt-study-pack.txt](learning/chatgpt-study-pack.txt)。包含原始需求、当前进度、第一课与反馈、第二课讲义及示例、来源和起步 Skill 资源。
+2. 下载并上传 [chatgpt-study-pack.txt](learning/chatgpt-study-pack.txt)。包含原始需求、当前进度、已完成课程反馈、当前课程讲义与示例、来源和起步 Skill 资源。
 3. 发送 [恢复学习提示词](prompts/resume-learning.md)，先确认进度，再开始一个知识单元。
 
 有 GitHub 连接时可按需读仓库；没有也能用上传包开展阅读、讲解与问答。Python、CAD 和仓库写入取决于当前实际工具，不保证任意网页会话都具备。网页端尚未在你的账号中实测，验收清单见使用指南。
@@ -77,3 +77,4 @@ cd cad-teacher
 每课保留原答和纠正，更新 `learning/progress.md`，重建上传包后用中文提交。已有仓库可运行 `bash publish-github.sh` 检查、提交本教材文件并推送，不创建仓库、不强推。上传包也应替换为最新版本。
 
 [第三方许可声明](resources/THIRD_PARTY_NOTICES.md)。不提交虚拟环境、缓存、凭据或无关临时文件。工程判断区分几何验证、力学估算、仿真验证和实物验证。
+\n

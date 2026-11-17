@@ -70,9 +70,10 @@ def main():
     ET.parse(ROOT / 'learning/lesson-02-fbd.svg')
     subprocess.run([sys.executable, 'tools/build_study_pack.py', '--check'], cwd=ROOT, check=True)
     print(f'PASS: {checked} local links; {sum(len(r["skills"]) for r in data["repositories"])} pinned Skill URLs; '
-          f'{len(data["snapshots"])} exact upstream snapshots; lessons 01/02 arithmetic; SVG; current upload pack')
+          f'{len(data["snapshots"])} exact upstream snapshots; lessons 01/02 arithmetic and lesson 03 example; SVG; current upload pack')
     print('Not checked: live ChatGPT upload, CAD geometry, FEA, hardware.')
 
 
 if __name__ == '__main__':
     main()
+\n
