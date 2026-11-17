@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="500" viewBox="0 0 1000 500" role="img" aria-labelledby="title desc">
+  <title id="title">斜向载荷分解与固定端受力图</title>
+  <desc id="desc">水平悬臂连杆左端 A 固定，长度 0.60 米，连杆自重 10 牛作用于中点。末端受 100 牛向右下方 53.13 度的斜向力，可分解为向右 60 牛和向下 80 牛。固定端反力为向左 60 牛、向上 90 牛，反力矩逆时针 51 牛米。</desc>
+  <defs>
+    <marker id="load" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#c0392b"/></marker>
+    <marker id="reaction" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1f4e79"/></marker>
+    <marker id="dim" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#7f8c8d"/></marker>
+  </defs>
+  <rect width="1000" height="500" fill="#fff"/>
+  <text x="40" y="42" font-family="Arial,sans-serif" font-size="24" fill="#263238">斜向力的分解：先分量，再列平衡方程</text>
+  <rect x="115" y="170" width="24" height="118" fill="#b7bec7" stroke="#2c3e50" stroke-width="2"/>
+  <g stroke="#59636e" stroke-width="2"><path d="M115 178 l-15 15 M115 200 l-15 15 M115 222 l-15 15 M115 244 l-15 15 M115 266 l-15 15"/></g>
+  <rect x="139" y="222" width="590" height="26" rx="2" fill="#d9dde3" stroke="#2c3e50" stroke-width="2"/>
+  <text x="155" y="210" font-family="Arial,sans-serif" font-size="16" fill="#263238">水平连杆，L = 0.60 m</text>
+  <text x="142" y="273" font-family="Arial,sans-serif" font-size="18" fill="#263238">A</text>
+  <g stroke="#1f4e79" stroke-width="4" fill="none" marker-end="url(#reaction)">
+    <line x1="139" y1="235" x2="55" y2="235"/>
+    <line x1="139" y1="235" x2="139" y2="135"/>
+  </g>
+  <g fill="#1f4e79" font-family="Arial,sans-serif" font-size="16">
+    <text x="52" y="218">Aₓ = 60 N</text><text x="150" y="145">Aᵧ = 90 N</text>
+    <text x="42" y="310">Mₐ = 51 N·m ↺</text>
+  </g>
+  <path d="M 78 250 A 50 50 0 1 0 99 199" fill="none" stroke="#1f4e79" stroke-width="3" marker-end="url(#reaction)"/>
+  <g stroke="#c0392b" stroke-width="4" fill="none" marker-end="url(#load)">
+    <line x1="429" y1="145" x2="429" y2="215"/>
+    <line x1="729" y1="235" x2="805" y2="330"/>
+  </g>
+  <text x="429" y="128" font-family="Arial,sans-serif" font-size="16" fill="#c0392b" text-anchor="middle">W = 10 N</text>
+  <text x="810" y="337" font-family="Arial,sans-serif" font-size="16" fill="#c0392b">F = 100 N</text>
+  <text x="810" y="357" font-family="Arial,sans-serif" font-size="14" fill="#c0392b">53.13° 向右下</text>
+  <g stroke="#7f8c8d" stroke-width="1.5" fill="none"><line x1="139" y1="325" x2="729" y2="325"/><line x1="139" y1="316" x2="139" y2="334"/><line x1="729" y1="316" x2="729" y2="334"/></g>
+  <text x="434" y="348" font-family="Arial,sans-serif" font-size="15" fill="#59636e" text-anchor="middle">0.60 m</text>
+  <g transform="translate(805 72)">
+    <text x="0" y="-14" font-family="Arial,sans-serif" font-size="18" fill="#263238">同一斜向力的分量</text>
+    <path d="M 0 20 L 120 20 L 120 180 Z" fill="#f5f7fa" stroke="#7f8c8d" stroke-width="1.5"/>
+    <path d="M 0 20 L 120 180" fill="none" stroke="#c0392b" stroke-width="4" marker-end="url(#load)"/>
+    <path d="M 0 20 L 120 20" fill="none" stroke="#1f77b4" stroke-width="3" stroke-dasharray="6 4" marker-end="url(#reaction)"/>
+    <path d="M 120 20 L 120 180" fill="none" stroke="#c0392b" stroke-width="3" stroke-dasharray="6 4" marker-end="url(#load)"/>
+    <text x="55" y="7" font-family="Arial,sans-serif" font-size="14" fill="#1f77b4" text-anchor="middle">Fx = 60 N →</text>
+    <text x="129" y="100" font-family="Arial,sans-serif" font-size="14" fill="#c0392b">Fy = 80 N ↓</text>
+    <text x="32" y="112" font-family="Arial,sans-serif" font-size="14" fill="#c0392b" transform="rotate(53 32 112)">F = 100 N</text>
+    <text x="0" y="215" font-family="Arial,sans-serif" font-size="13" fill="#59636e">水平 : 竖直 : 合力 = 3 : 4 : 5</text>
+  </g>
+  <g stroke="#263238" stroke-width="2.5" fill="none" marker-end="url(#dim)">
+    <line x1="55" y1="430" x2="103" y2="430"/><line x1="55" y1="430" x2="55" y2="385"/>
+  </g>
+  <g fill="#263238" font-family="Arial,sans-serif" font-size="14"><text x="110" y="435">+x</text><text x="42" y="377">+y</text><text x="155" y="432">右、上为正；逆时针力矩为正。图中分量仅为等效表示。</text></g>
+</svg>

@@ -23,8 +23,17 @@
       "id": "03",
       "title": "多载荷平衡",
       "lesson": "learning/lesson-03.md",
+      "feedback_published": true,
+      "feedback": "learning/lesson-03-review.md",
+      "example_script": "learning/lesson-03.py",
+      "answer_key": "learning/lesson-03-answer-key.json"
+    },
+    {
+      "id": "04",
+      "title": "力分解与斜向载荷",
+      "lesson": "learning/lesson-04.md",
       "feedback_published": false,
-      "example_script": "learning/lesson-03.py"
+      "example_script": "learning/lesson-04.py"
     }
   ]
 }

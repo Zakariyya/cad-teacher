@@ -2,7 +2,7 @@
 
 为具有约 7 年 Java 后端经验的学习者，从机械、电路与动力学基础逐步走向机械设计、CAD、嵌入式、控制与 ROS 2 集成。
 
-**这是一份持续编写的教材。第一课已完成讲解与反馈；第二课「支架自重与重心」已完成；第三课「多载荷平衡」讲义、示例和练习已发布，等待作答；其余课程仍是培养路线。**
+**这是一份持续编写的教材。第一至第三课已完成；第四课「力分解与斜向载荷」讲义、示例和练习已发布，等待作答；其余课程仍是培养路线。**
 
 ## 开始阅读
 
@@ -15,7 +15,8 @@
 | 查看完整培养路线 | [课程路线与能力检查](curriculum/roadmap.md) |
 | 阅读第一课 | [讲义](learning/lesson-01.md) · [作答反馈](learning/lesson-01-review.md) |
 | 阅读第二课：支架自重与重心 | [讲义](learning/lesson-02.md) · [作答反馈](learning/lesson-02-review.md) · [示例代码](learning/lesson-02.py) · [验证记录](learning/lesson-02-verification.md) |
-| 学习第三课：多载荷平衡 | [讲义](learning/lesson-03.md) · [受力图](learning/lesson-03-fbd.svg) · [示例代码](learning/lesson-03.py) |
+| 学习第三课：多载荷平衡 | [讲义](learning/lesson-03.md) · [作答反馈](learning/lesson-03-review.md) · [答案核算](learning/lesson-03-answer-key.json) · [示例代码](learning/lesson-03.py) |
+| 学习第四课：力分解与斜向载荷 | [讲义](learning/lesson-04.md) · [受力图](learning/lesson-04-fbd.svg) · [示例代码](learning/lesson-04.py) |
 | 找 Skill GitHub 地址 | [41 个 Skill 来源索引](resources/skills.md) · [版本登记表](resources/skill-sources.json) |
 | 维护与编写教材 | [目录职责](docs/project-structure.md) · [质量标准](docs/teaching-standard.md) · [新课模板](templates/lesson.md) |
 
@@ -56,6 +57,7 @@ docs/          网页端指南、教学标准与维护设计
 python3 learning/lesson-01.py
 python3 learning/lesson-02.py
 python3 learning/lesson-03.py
+python3 learning/lesson-04.py
 python3 tools/build_study_pack.py
 python3 tools/check_project.py
 ```

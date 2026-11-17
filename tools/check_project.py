@@ -66,13 +66,34 @@ def main():
     if any(abs(value) > 1e-12 for value in submitted['equilibrium_residuals'].values()):
         raise SystemExit('FAIL: 第二课平衡残差')
     subprocess.run([sys.executable, 'learning/lesson-02.py'], cwd=ROOT, check=True)
+    lesson_three = next(entry for entry in catalog['lessons'] if entry['id'] == '03')
+    if not lesson_three['feedback_published'] or not lesson_three.get('feedback') or not lesson_three.get('answer_key'):
+        raise SystemExit('FAIL: 第三课作答反馈与答案记录尚未登记')
+    key_three = json.loads((ROOT / lesson_three['answer_key']).read_text(encoding='utf-8'))
+    basic_three = key_three['basic_problem']
+    if (basic_three['support_weight_N'], basic_three['support_cg_x_m'],
+            basic_three['total_downward_force_N'], basic_three['support_vertical_reaction_N'],
+            basic_three['total_clockwise_external_moment_Nm'], basic_three['support_reaction_moment_Nm']) != (6, 0.25, 24, 24, 7.1, 7.1):
+        raise SystemExit('FAIL: 第三课基础题核算')
+    engineering_three = key_three['engineering_application']
+    if (engineering_three['total_downward_force_N'], engineering_three['support_vertical_reaction_N'],
+            engineering_three['total_clockwise_external_moment_Nm'], engineering_three['support_reaction_moment_Nm'],
+            engineering_three['camera_move']['moment_decrease_Nm']) != (47, 47, 28.05, 28.05, 6):
+        raise SystemExit('FAIL: 第三课工程题核算')
+    if any(abs(value) > 1e-12 for value in basic_three['equilibrium_residuals'].values()):
+        raise SystemExit('FAIL: 第三课基础题平衡残差')
+    lesson_four = next(entry for entry in catalog['lessons'] if entry['id'] == '04')
+    if lesson_four['feedback_published'] or not lesson_four.get('example_script'):
+        raise SystemExit('FAIL: 第四课应保持待作答状态并登记示例脚本')
     subprocess.run([sys.executable, 'learning/lesson-03.py'], cwd=ROOT, check=True)
+    subprocess.run([sys.executable, 'learning/lesson-04.py'], cwd=ROOT, check=True)
     ET.parse(ROOT / 'learning/lesson-01-fbd.svg')
     ET.parse(ROOT / 'learning/lesson-02-fbd.svg')
     ET.parse(ROOT / 'learning/lesson-03-fbd.svg')
+    ET.parse(ROOT / 'learning/lesson-04-fbd.svg')
     subprocess.run([sys.executable, 'tools/build_study_pack.py', '--check'], cwd=ROOT, check=True)
     print(f'PASS: {checked} local links; {sum(len(r["skills"]) for r in data["repositories"])} pinned Skill URLs; '
-          f'{len(data["snapshots"])} exact upstream snapshots; lessons 01/02 arithmetic and lesson 03 example; SVG; current upload pack')
+          f'{len(data["snapshots"])} exact upstream snapshots; lessons 01/02/03 answer checks and lessons 03/04 examples; SVG; current upload pack')
     print('Not checked: live ChatGPT upload, CAD geometry, FEA, hardware.')
 
 

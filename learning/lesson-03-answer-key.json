@@ -1,0 +1,79 @@
+{
+  "basic_problem": {
+    "support_mass_kg": 0.6,
+    "support_length_m": 0.5,
+    "gravity_m_s2": 10,
+    "support_weight_N": 6,
+    "support_cg_x_m": 0.25,
+    "P1_N": 10,
+    "P1_x_m": 0.2,
+    "P1_clockwise_moment_Nm": 2,
+    "P2_N": 8,
+    "P2_x_m": 0.45,
+    "P2_clockwise_moment_Nm": 3.6,
+    "support_self_weight_clockwise_moment_Nm": 1.5,
+    "total_downward_force_N": 24,
+    "support_vertical_reaction_N": 24,
+    "support_vertical_reaction_direction": "up",
+    "total_clockwise_external_moment_Nm": 7.1,
+    "support_reaction_moment_Nm": 7.1,
+    "support_reaction_moment_direction": "counterclockwise",
+    "equilibrium_residuals": {
+      "Fy_N": 0,
+      "MA_Nm": 0
+    }
+  },
+  "engineering_application": {
+    "components": [
+      {
+        "name": "link_self_weight",
+        "mass_kg": 1.2,
+        "weight_N": 12,
+        "x_m": 0.4,
+        "clockwise_moment_Nm": 4.8
+      },
+      {
+        "name": "camera",
+        "mass_kg": 2,
+        "weight_N": 20,
+        "x_m": 0.7,
+        "clockwise_moment_Nm": 14
+      },
+      {
+        "name": "sensor",
+        "mass_kg": 0.5,
+        "weight_N": 5,
+        "x_m": 0.25,
+        "clockwise_moment_Nm": 1.25
+      },
+      {
+        "name": "workpiece",
+        "mass_kg": 1,
+        "weight_N": 10,
+        "x_m": 0.8,
+        "clockwise_moment_Nm": 8
+      }
+    ],
+    "total_downward_force_N": 47,
+    "support_vertical_reaction_N": 47,
+    "support_vertical_reaction_direction": "up",
+    "total_clockwise_external_moment_Nm": 28.05,
+    "support_reaction_moment_Nm": 28.05,
+    "support_reaction_moment_direction": "counterclockwise",
+    "largest_component_moment": "camera",
+    "camera_move": {
+      "from_x_m": 0.7,
+      "to_x_m": 0.4,
+      "camera_weight_N": 20,
+      "moment_decrease_Nm": 6,
+      "vertical_reaction_change_N": 0,
+      "new_total_support_reaction_moment_Nm": 22.05
+    }
+  },
+  "grading": {
+    "basic_problem": "pass; numerical values correct, corrected force/moment direction wording and N·m unit",
+    "engineering_application": "conceptual pass; detailed values independently checked by mentor per learner request",
+    "lesson_status": "passed",
+    "recorded_on": "2026-11-17"
+  }
+}
