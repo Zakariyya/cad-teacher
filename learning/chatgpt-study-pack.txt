@@ -7,15 +7,15 @@
 缺少运行工具时明确未运行；不能写 GitHub 时输出待回写更新。
 图的链接供在线查看；离线时使用讲义中的对象、尺寸、方向和方程重画受力图。
 权威进度：https://github.com/Zakariyya/cad-teacher/blob/main/learning/progress.md
-源文件集合 SHA-256：d97116f00301122bed7d6a2d8b90e57ff272977ee493c471fe070a5df4257b7f
+源文件集合 SHA-256：8a25392281fcd97b9253385c4a22d2b07a4aaccc817747dc30545b71452b47d4
 
 ## 内嵌源文件与 SHA-256
 - prompts/project-instructions.md: 9e7a26c101a74e5d0cfadf68bdd67be58377479997d4bc4204d05d138c636e62
 - prompts/original-request.md: 4d535be9f4d1aae136b26363083351dec3195ab48c1162de5fe98d8e3096e32b
 - prompts/resume-learning.md: 02a360bd3294a5f9ca8aae44a515339fc56751160721aa109e29ff53aad52739
-- learning/progress.md: 87e4dc3e58d740f763afda350e2d2954bde08eb910d788a9b7f361437bd9e659
-- curriculum/roadmap.md: 3598d0501ca97cf434e04a66a7a67f8da56d13a9966e6a13d5e68a44842a650e
-- curriculum/lessons.json: 5f9888b533bdbb2bbd13ae4f4dc926b27c959019fc8858cf5b0c5f019c11bfa9
+- learning/progress.md: 14fa23bd82fc4225e5560212bc1a5c87de710e5ea03e19377915b824ca97ab4b
+- curriculum/roadmap.md: 2b4ee91ded51fdadb1e4b178ff55b9d3599cf9ea0ff4fd5e40c2aaacdf6aabd6
+- curriculum/lessons.json: bc33b2f9c6537214ac665e7d2c0e53505351d144cb35c786819934070fce5ac1
 - learning/resources.md: aa8eff0171f262007dd3edc34e61af7df7c15622ae93c7336eefd7d61dde8340
 - learning/lesson-01.md: 620de72d45b8c5585e5d954791652e930531610646fa355fe56cd156124500f8
 - learning/lesson-01-review.md: 5f4500b5ccc55a6693089773f451704ffcadedd02a9a6de77eb7c85cd7f8b400
@@ -27,6 +27,10 @@
 - learning/lesson-02-answer-key.json: efe6bee5ffcd00da329dd8acd854b05bb865fb49b27bbf3f38d87eee62cf2331
 - learning/lesson-03.md: a81a680a97a0c9a2b62a59d6f2796ec0693f34c7378687891f306551677a43c9
 - learning/lesson-03.py: 5834b70524b6749e679e0de9c6da2bfab219d93c357040c5d8bda79fc642ac2b
+- learning/lesson-03-review.md: f8ce3af358a0f69cc5a61cc95b63f72095dfdf501d25bb062385bce3e23fd467
+- learning/lesson-03-answer-key.json: e1885e8d7a21cdf857506c6fe3976b49cd6cab913ca822c8b0a5f488ffacd3a8
+- learning/lesson-04.md: 4fa65749507dc0dd655c41cce7ec2cfe926eb52ffaf6bdc77f5bc8bffdf68b37
+- learning/lesson-04.py: b84aca130135943ec7fffcd1ad75a3a4409c6483cad230926fb9bbc1616febda
 - docs/teaching-standard.md: e157413e81d7690a9f74ac6c20bddead64a91c2cd65ce7a10e946eed4f92137a
 - resources/skills.md: 064e88f7e35386749944f62aa5be4b7abb7944e8674a78f3c1b61126d1e6e40a
 - resources/THIRD_PARTY_NOTICES.md: 8c6c90522dbf943913d3accb4c7a667eda3e88914391e0850f52c101ad86c8fc
@@ -147,18 +151,19 @@
 | 单元 | 状态 | 证据 |
 | --- | --- | --- |
 | 01 力、力矩、固定支撑反力与受力分析 | 已完成本单元讲解、两题作答与概念追问 | [作答与反馈](https://github.com/Zakariyya/cad-teacher/blob/main/learning/lesson-01-review.md) |
-| 02 支架自重与重心 | **已完成：讲解、概念检查、基础题、工程应用题与力矩物理解释；数值正确，力矩单位已纠正** | [讲义](https://github.com/Zakariyya/cad-teacher/blob/main/learning/lesson-02.md) · [作答反馈](https://github.com/Zakariyya/cad-teacher/blob/main/learning/lesson-02-review.md) · [验证记录](https://github.com/Zakariyya/cad-teacher/blob/main/learning/lesson-02-verification.md) |
-| 03 多载荷平衡 | **讲义、示例与练习已发布；等待作答** | [讲义](https://github.com/Zakariyya/cad-teacher/blob/main/learning/lesson-03.md) · [受力图](https://github.com/Zakariyya/cad-teacher/blob/main/learning/lesson-03-fbd.svg) · [示例脚本](https://github.com/Zakariyya/cad-teacher/blob/main/learning/lesson-03.py) |
+| 02 支架自重与重心 | **已完成：讲解、概念检查、基础题、工程应用题与力矩物理解释** | [讲义](https://github.com/Zakariyya/cad-teacher/blob/main/learning/lesson-02.md) · [作答反馈](https://github.com/Zakariyya/cad-teacher/blob/main/learning/lesson-02-review.md) · [验证记录](https://github.com/Zakariyya/cad-teacher/blob/main/learning/lesson-02-verification.md) |
+| 03 多载荷平衡 | **已完成并通过：基础题数值正确；工程题概念判断正确** | [讲义](https://github.com/Zakariyya/cad-teacher/blob/main/learning/lesson-03.md) · [作答反馈](https://github.com/Zakariyya/cad-teacher/blob/main/learning/lesson-03-review.md) · [答案核算](https://github.com/Zakariyya/cad-teacher/blob/main/learning/lesson-03-answer-key.json) · [示例脚本](https://github.com/Zakariyya/cad-teacher/blob/main/learning/lesson-03.py) |
+| 04 力分解与斜向载荷 | **讲义、示例与练习已发布；等待作答** | [讲义](https://github.com/Zakariyya/cad-teacher/blob/main/learning/lesson-04.md) · [受力图](https://github.com/Zakariyya/cad-teacher/blob/main/learning/lesson-04-fbd.svg) · [示例脚本](https://github.com/Zakariyya/cad-teacher/blob/main/learning/lesson-04.py) |
 
 ## 下次如何继续
 
-第 02 课已正式完成。数值计算全部正确；基础题的力矩单位最初写成 N，已纠正为 N·m；工程题的方向未主动标注，已反馈。学习者能够用整体重心解释相机外移会增大总力矩，导师进一步解释了力矩与力臂成正比的做功推导。第三课「多载荷平衡」讲义、示例和两道练习已发布，等待学习者作答。
+第三课已正式通过。基础题的重量、重心、三个力矩、竖直反力和总反力矩数值均正确。已纠正三点：力“向下”与力矩“顺时针”是不同方向概念；力矩单位为 N·m；平衡方程应把所有力和力矩按正负号列出。工程题的物理判断通过，具体数值由导师核算：总向下力 47 N、固定端反力矩 28.05 N·m；相机移动 0.30 m 对反力矩影响 6 N·m，竖直反力不变。未把导师补算的数值记作学习者独立完成。
 
-持续巩固：第一课和第二课都要区分力 N 与力矩 N·m；计算结果主动注明向上/向下、顺时针/逆时针。第二课已能理解力臂与力矩的正比关系。第三课重点练习逐项累加多个载荷的力和力矩，继续主动标注方向。
+当前单元为第四课「力分解与斜向载荷」。先理解角度相对水平/竖直的区别，再练习 sin/cos、分量正负号和分量对力矩的影响。持续巩固力 N 与力矩 N·m 的单位区分、向上/向下与顺时针/逆时针的方向表达。
 
 ## 验证与边界
 
-第一课和第二课的 Python 静力核算已运行。第三课示例脚本已在本次会话实际执行：总重 28 N、固定端反力矩 12.9 N·m、整体重心 0.4607 m，平衡残差为零。当前运行环境未安装 Pint，第三课单位由 SI 量纲人工核对。所有课程均不代表真实 CAD、FEA 或实物验证。
+第三课提交结果按题设独立核算，平衡方程残差为零；这属于静力算术/模型一致性检查，不是 CAD、FEA 或实物验证。第四课示例脚本使用 Python 标准库，检查斜向力分解、固定端反力与力矩平衡；同样不代表实物结构安全验收。
 
 ---
 
@@ -166,7 +171,7 @@
 
 # 从基础到独立机器人开发的课程路线
 
-这是逐课编写的培养路线，不是已完成的教材。当前个人状态只在 [学习进度](https://github.com/Zakariyya/cad-teacher/blob/main/learning/progress.md) 维护；第一课与第二课已完成；第三课「多载荷平衡」讲义与练习已发布，正在学习；其余单元尚未编写。一个条目可按学习反馈拆成多个小课，数学在需要时补齐。
+这是逐课编写的培养路线，不是已完成的教材。当前个人状态只在 [学习进度](https://github.com/Zakariyya/cad-teacher/blob/main/learning/progress.md) 维护；第一课至第三课已完成；第四课「力分解与斜向载荷」讲义与练习已发布，正在学习；其余单元尚未编写。一个条目可按学习反馈拆成多个小课，数学在需要时补齐。
 
 | 阶段 | 知识单元（按顺序） | 机器人任务 | 阶段能力检查 |
 | --- | --- | --- | --- |
@@ -229,8 +234,17 @@
       "id": "03",
       "title": "多载荷平衡",
       "lesson": "learning/lesson-03.md",
+      "feedback_published": true,
+      "feedback": "learning/lesson-03-review.md",
+      "example_script": "learning/lesson-03.py",
+      "answer_key": "learning/lesson-03-answer-key.json"
+    },
+    {
+      "id": "04",
+      "title": "力分解与斜向载荷",
+      "lesson": "learning/lesson-04.md",
       "feedback_published": false,
-      "example_script": "learning/lesson-03.py"
+      "example_script": "learning/lesson-04.py"
     }
   ]
 }
@@ -1167,6 +1181,394 @@ print(f"Fixed support reaction Ay = {Ay_N:.1f} N upward")
 print(f"Fixed support reaction moment MA = {MA_Nm:.2f} N·m counterclockwise")
 print(f"Equivalent combined CG x_G = {x_combined_cg_m:.4f} m from A")
 print(f"Equilibrium residuals: ΣFy={residual_Fy_N:.1f} N, ΣM_A={residual_MA_Nm:.1f} N·m")
+````
+
+---
+
+## 源文件：learning/lesson-03-review.md
+
+# 第 03 单元：多载荷平衡——作答与反馈
+
+记录日期：2026-11-17。题目见 [第三课讲义](https://github.com/Zakariyya/cad-teacher/blob/main/learning/lesson-03.md)。保留学习者原答，再区分数值、单位、方向和概念理解。
+
+## A. 基础题
+
+### 学习者原答
+
+> 1、6n，中心（0.25m）
+> 2、支架1.5n，p1:2n, p2:3.6n,方向都是顺时针向下
+> 3、6+10+8=24n
+> 4、1.5+2+3.6=7.1n
+> 5、竖直平衡就是他们三个竖直反力加起来，力矩平衡就是逆时针向上力矩加起来
+
+### 逐项反馈
+
+1. **正确。** 支架重量为 0.6 × 10 = 6 N，均匀支架的重心在中点 0.50 / 2 = 0.25 m。
+2. **数值正确，方向表述需要分开。** 支架重力 6 N 向下，对 A 点产生 1.5 N·m 顺时针力矩；P1 为 10 N 向下，产生 2.0 N·m 顺时针力矩；P2 为 8 N 向下，产生 3.6 N·m 顺时针力矩。“向下”描述力的方向；“顺时针”描述力矩方向。
+3. **正确。** 固定端竖直反力为 6 + 10 + 8 = 24 N，方向向上。
+4. **数值正确，单位和方向需要补齐。** 外载总力矩为 7.1 N·m，顺时针；固定端反力矩为 7.1 N·m，逆时针。力矩单位是 N·m，不是 N。
+5. **概念方向正确，但方程表述不够准确。** 不是把“三个竖直反力加起来”，而是把所有竖直外力与支撑反力按正负号相加；力矩也要把顺、逆时针按符号相加。
+
+平衡方程（向上为正、逆时针为正）：
+
+`ΣFy = Ay - 6 - 10 - 8 = 0`
+
+`ΣMA = MA - 6 × 0.25 - 10 × 0.20 - 8 × 0.45 = 0`
+
+因此 Ay = 24 N 向上，MA = 7.1 N·m 逆时针。
+
+## B. 工程应用题：机械臂末端多个部件
+
+### 学习者原答
+
+> 支架自身重心是长度减半，支架、相机、传感器重量都是质量成加速度，A的竖直反力是他们三的重力重量的和，反力矩是各自重力乘以距离A点的距离（支架则是乘以重心距离a点的距离）。
+>
+> 对a点产生力矩最大的部件取决于各自产生的力矩数值，不能只看质量是因为力矩跟距离固定点距离挂钩。第四题固定端力矩变小，竖直反力不变，因为竖直反力只跟重量和重力加速度挂钩，重力加速度是固定值，期间物品重量不变
+
+### 反馈
+
+四个物理判断均正确，说明已经理解多部件重量与力臂如何共同决定固定端反力和反力矩。
+
+| 部件 | 重量 | 作用位置 | 对 A 点的顺时针力矩 |
+|---|---:|---:|---:|
+| 连杆自身 | 12 N | 0.40 m | 4.80 N·m |
+| 相机 | 20 N | 0.70 m | 14.00 N·m |
+| 传感器 | 5 N | 0.25 m | 1.25 N·m |
+| 工件 | 10 N | 0.80 m | 8.00 N·m |
+| **合计** | **47 N** | — | **28.05 N·m** |
+
+因此固定端竖直反力为 47 N、向上；固定端反力矩为 28.05 N·m、逆时针。相机产生的力矩最大，为 14 N·m。
+
+相机从 0.70 m 移到 0.40 m：
+
+`ΔM = 20 × (0.70 - 0.40) = 6 N·m`
+
+固定端需要抵抗的反力矩减少 6 N·m；竖直反力不变，仍为 47 N。
+
+用词补充：重量是质量乘当地重力加速度 g，即 W = mg。本题按题设取 g = 10 m/s²。
+
+本题按学习者要求以定性解释为主，没有要求其补交工程题的完整数值推导；表格数值由导师核算，不能记为学习者独立完成的数值计算。
+
+## C. 学习结果与能力边界
+
+- **通过：** 多载荷逐项求和；均匀连杆重心；多个载荷的力矩叠加；固定端竖直反力与反力矩；载荷位置改变对力矩和竖直反力的不同影响。
+- **已纠正：** 力“向下”与力矩“顺时针”是不同概念；力矩单位为 N·m；平衡方程应将外力和支撑反力按符号列出。
+- **工程题证据：** 物理逻辑通过；数值由导师核算，未要求学习者独立列出。
+- **结论：第三课通过，允许进入第四课。**
+- **边界：** 当前只验证二维静力模型中的竖直平行载荷。斜向力、不同支撑、摩擦、材料强度和动态工况仍需后续学习。
+
+---
+
+## 源文件：learning/lesson-03-answer-key.json
+
+````json
+{
+  "basic_problem": {
+    "support_mass_kg": 0.6,
+    "support_length_m": 0.5,
+    "gravity_m_s2": 10,
+    "support_weight_N": 6,
+    "support_cg_x_m": 0.25,
+    "P1_N": 10,
+    "P1_x_m": 0.2,
+    "P1_clockwise_moment_Nm": 2,
+    "P2_N": 8,
+    "P2_x_m": 0.45,
+    "P2_clockwise_moment_Nm": 3.6,
+    "support_self_weight_clockwise_moment_Nm": 1.5,
+    "total_downward_force_N": 24,
+    "support_vertical_reaction_N": 24,
+    "support_vertical_reaction_direction": "up",
+    "total_clockwise_external_moment_Nm": 7.1,
+    "support_reaction_moment_Nm": 7.1,
+    "support_reaction_moment_direction": "counterclockwise",
+    "equilibrium_residuals": {
+      "Fy_N": 0,
+      "MA_Nm": 0
+    }
+  },
+  "engineering_application": {
+    "components": [
+      {
+        "name": "link_self_weight",
+        "mass_kg": 1.2,
+        "weight_N": 12,
+        "x_m": 0.4,
+        "clockwise_moment_Nm": 4.8
+      },
+      {
+        "name": "camera",
+        "mass_kg": 2,
+        "weight_N": 20,
+        "x_m": 0.7,
+        "clockwise_moment_Nm": 14
+      },
+      {
+        "name": "sensor",
+        "mass_kg": 0.5,
+        "weight_N": 5,
+        "x_m": 0.25,
+        "clockwise_moment_Nm": 1.25
+      },
+      {
+        "name": "workpiece",
+        "mass_kg": 1,
+        "weight_N": 10,
+        "x_m": 0.8,
+        "clockwise_moment_Nm": 8
+      }
+    ],
+    "total_downward_force_N": 47,
+    "support_vertical_reaction_N": 47,
+    "support_vertical_reaction_direction": "up",
+    "total_clockwise_external_moment_Nm": 28.05,
+    "support_reaction_moment_Nm": 28.05,
+    "support_reaction_moment_direction": "counterclockwise",
+    "largest_component_moment": "camera",
+    "camera_move": {
+      "from_x_m": 0.7,
+      "to_x_m": 0.4,
+      "camera_weight_N": 20,
+      "moment_decrease_Nm": 6,
+      "vertical_reaction_change_N": 0,
+      "new_total_support_reaction_moment_Nm": 22.05
+    }
+  },
+  "grading": {
+    "basic_problem": "pass; numerical values correct, corrected force/moment direction wording and N·m unit",
+    "engineering_application": "conceptual pass; detailed values independently checked by mentor per learner request",
+    "lesson_status": "passed",
+    "recorded_on": "2026-11-17"
+  }
+}
+````
+
+---
+
+## 源文件：learning/lesson-04.md
+
+# 第 04 单元：力分解与斜向载荷
+
+状态：**讲解、示例与练习已发布；等待学习者作答**（2026-11-17）。不要提前公开练习答案。
+
+## 1. 学习目标与前置知识
+
+承接第三课「多载荷平衡」。本课开始处理不再竖直或水平的力。学完应能：
+
+1. 识别斜向力的角度是相对水平线还是竖直线测量。
+2. 用直角三角形把一个斜向力分解为水平、竖直两个分量。
+3. 根据力的实际指向给分量添加正负号。
+4. 将力分量代入静力平衡方程，求出固定端反力和反力矩。
+5. 判断某个分力是否产生力矩，而不是误以为所有分力都会产生力矩。
+
+前置知识：正交的水平/竖直方向、固定端三个反力未知量、第三课的多载荷平衡。三角函数只补本课需要的部分，不要求先学完整三角学。
+
+## 2. 为什么机器人结构中会出现斜向力？
+
+机械臂夹爪抓住工件时，接触力不一定竖直向下；拉索、斜撑、倾斜连杆、斜面接触也会把力沿倾斜方向传递。
+
+如果一股力既向左又向下，我们不能直接把它和纯水平力或纯竖直力相加。要先把它换成两个互相垂直的分量：
+
+- 水平分量：描述这股力在水平方向上的效果。
+- 竖直分量：描述这股力在竖直方向上的效果。
+
+**分量不是多出来的两股真实载荷。** 它们是同一个斜向力的数学表示，两个分量合起来，效果与原来的斜向力完全相同。不要把原力和两个分量重复相加。
+
+## 3. 先认识直角三角形：sin 和 cos 怎么用？
+
+假设角度 θ 是从水平线量起：
+
+- 斜边是原来的力 F；
+- 邻边是水平分量 Fx；
+- 对边是竖直分量 Fy 的大小。
+
+因此：
+
+`Fx = F cos θ`
+
+`|Fy| = F sin θ`
+
+记忆方法：
+
+- **cos：角度旁边那条边**，本题就是水平分量。
+- **sin：角度对面那条边**，本题就是竖直分量。
+
+如果角度是从竖直线量起，水平与竖直分量对应的 sin/cos 就要交换。不要只背公式，先看角度画在哪一侧。
+
+### 方向和正负号
+
+本课程继续约定：向右为 +x，向上为 +y。
+
+| 分量方向 | 符号 |
+|---|---:|
+| 向右 | +Fx |
+| 向左 | −Fx |
+| 向上 | +Fy |
+| 向下 | −Fy |
+
+例如，一股力朝右下方：水平分量为正，竖直分量为负。**sin 和 cos 只给分量大小；方向正负要根据箭头判断。**
+
+### 用 3-4-5 三角形先算一次
+
+如果一个 100 N 的斜向力形成 3-4-5 直角三角形：
+
+- 水平边占斜边的 3/5，所以水平分量大小为 100 × 3/5 = 60 N；
+- 竖直边占斜边的 4/5，所以竖直分量大小为 100 × 4/5 = 80 N。
+
+这个角度约为 53.13°（从水平线量起），所以 cosθ = 0.6、sinθ = 0.8。这样可以先理解分量关系，不必一上来就死记小数。
+
+## 4. 受力图：斜向力与它的分量
+
+![斜向载荷自由体图](https://github.com/Zakariyya/cad-teacher/blob/main/learning/lesson-04-fbd.svg)
+
+本图中的斜向外力为 100 N，作用在水平连杆末端，方向向右下方。它可以表示为向右 60 N、向下 80 N 两个分量。连杆自身重力 10 N 作用在中点。
+
+蓝色箭头表示固定端反力；红色箭头表示外载。右侧的直角三角形展示分量关系。分量箭头只是同一斜向力的等效表示，不是额外载荷。
+
+## 5. 完整例题：固定端支架受到斜向力
+
+### 已知与模型
+
+一根水平刚性连杆左端 A 固定，长度 L = 0.60 m，自身质量 1.0 kg，质量均匀。末端受到 100 N 的斜向力，方向为**水平线以下 53.13°、向右下方**。取 g = 10 m/s²。
+
+假设：二维静力平衡；连杆足够刚；力作用在连杆中心线末端；忽略连接件、线缆自重、变形、振动与冲击。
+
+### 第一步：先分解斜向力
+
+3-4-5 比例给出：
+
+- Fx = +100 × 3/5 = +60 N，向右；
+- Fy = −100 × 4/5 = −80 N，向下。
+
+这里负号很重要：竖直分量向下。
+
+### 第二步：计算连杆自重
+
+连杆重量 W = 1.0 × 10 = 10 N，向下。均匀连杆的重心在中点，距 A 为 0.30 m。
+
+### 第三步：列水平方向平衡
+
+`ΣFx = Ax + 60 = 0`
+
+所以 Ax = −60 N，也就是固定端提供 60 N 向左的水平反力。
+
+### 第四步：列竖直方向平衡
+
+`ΣFy = Ay − 80 − 10 = 0`
+
+所以 Ay = 90 N，方向向上。
+
+### 第五步：绕 A 点取力矩
+
+约定逆时针为正。末端的 80 N 向下分量使连杆顺时针转动；连杆自重也使它顺时针转动。
+
+`ΣMA = MA − 80 × 0.60 − 10 × 0.30 = 0`
+
+所以固定端反力矩为 51 N·m，逆时针。
+
+**为什么 60 N 的水平分量没有出现在这道力矩方程中？** 因为它的作用线沿着水平连杆中心线，经过 A 点，垂直力臂为零。它仍然会影响水平反力 Ax。
+
+注意：这不代表水平分力永远不会产生力矩。如果力的作用线与 A 点有垂直偏距，它同样可能产生力矩。判断时看的是“力的作用线到取矩点的垂直距离”，而不是只看力的名称。
+
+## 6. 本课最容易犯的五个错误
+
+1. **sin/cos 用反：** 先确认角度从水平还是竖直量起，再找邻边和对边。
+2. **只算绝对值：** 斜向力向左、向右、向上、向下，分量的正负号不能省略。
+3. **重复计算：** 原斜向力与它的两个分量不能同时放进同一个平衡方程。
+4. **认为水平分力一定没有力矩：** 只有它的作用线经过取矩点时，力臂才为零。
+5. **把力矩单位写成 N：** 力用 N，力矩用 N·m。
+
+## 7. 基础练习：相机支架受到斜向外力
+
+水平支架左端 A 固定，长度 0.50 m，自身质量 0.4 kg，质量均匀。末端受到 50 N 的力，方向为**水平线以下 30°、向右下方**。取 g = 10 m/s²。可使用 sin30° = 0.5、cos30° ≈ 0.866。
+
+请回答：
+
+1. 将 50 N 斜向力分解成 Fx、Fy，分别写出大小、正负号和方向。
+2. 支架自重是多少？作用点在哪里？
+3. 求固定端 Ax、Ay，注明方向。
+4. 求固定端反力矩 MA，注明方向与 N·m 单位。
+5. 写出 ΣFx = 0、ΣFy = 0、ΣMA = 0 三个平衡方程。
+
+## 8. 工程应用：机械臂夹爪承受斜向接触力
+
+一根水平机械臂连杆左端 A 固定，长度 0.70 m，自身质量 1.0 kg，质量均匀。末端夹爪与工件接触，工件对夹爪施加一个 80 N 的力，方向为**水平线以下 30°、向左下方**。取 g = 10 m/s²。
+
+请回答：
+
+1. 将 80 N 分解为水平和竖直分量，注明方向和正负号。
+2. 求连杆自重及其重心位置。
+3. 求 A 点的水平反力、竖直反力和反力矩。
+4. 如果同一个 80 N 力的方向不变，但作用点从 0.70 m 移到 0.35 m，哪些反力会变化？反力矩变化多少？解释原因。
+
+## 9. 本课结束后应具备的能力
+
+能把一个斜向外力转成水平、竖直分量，正确添加符号，并与其他载荷一起写进平衡方程。后续的斜拉索、斜撑、斜面接触、夹爪摩擦和机械臂关节载荷都会用到这一能力。
+
+**本课仍然是二维、静止、刚体模型。** 还没有分析铰支撑、滚动支撑、摩擦、材料应力或动态加速度；不要把本课反力结果直接当成实机选型或安全验收结论。
+
+## 参考教学资源
+
+本课沿用仓库已固定版本的 [mechanics-visuals](https://github.com/Zakariyya/cad-teacher/blob/main/resources/vendor/baratilab/skills/mechanics-visuals/SKILL.md) 与 [FBD 图示规范](https://github.com/Zakariyya/cad-teacher/blob/main/resources/vendor/baratilab/skills/mechanics-visuals/references/fbd_style.md)，以及 [worked-problem-generator](https://github.com/Zakariyya/cad-teacher/blob/main/resources/vendor/baratilab/skills/worked-problem-generator/SKILL.md) 的例题核算与练习设计流程。当前例题数值用附带 Python 标准库脚本复核；没有声称执行了 Pint 自动单位检查。
+
+---
+
+## 源文件：learning/lesson-04.py
+
+````python
+"""Lesson 04: resolve an oblique force and check fixed-support equilibrium.
+
+Educational model only: a horizontal rigid cantilever fixed at A.
+A 100 N force acts at the free end, 53.1301 degrees below +x.
+SI units; right/up positive; counterclockwise moments positive.
+"""
+from math import atan2, cos, degrees, isclose, sin
+
+G_M_S2 = 10.0
+L_M = 0.60
+BEAM_MASS_KG = 1.0
+FORCE_N = 100.0
+
+# A 3-4-5 triangle: cos(theta)=3/5, sin(theta)=4/5.
+theta_rad = atan2(4.0, 3.0)
+theta_deg = degrees(theta_rad)
+Fx_N = FORCE_N * cos(theta_rad)          # right, positive
+Fy_N = -FORCE_N * sin(theta_rad)         # down, negative
+beam_weight_N = BEAM_MASS_KG * G_M_S2
+beam_cg_x_m = L_M / 2.0
+
+# Fixed-support reactions make the total force and moment zero.
+Ax_N = -Fx_N
+Ay_N = beam_weight_N - Fy_N
+# The horizontal component is collinear with the beam centreline and A.
+horizontal_component_moment_Nm = 0.0
+MA_Nm = -(L_M * Fy_N + beam_cg_x_m * (-beam_weight_N))
+
+residual_Fx_N = Ax_N + Fx_N
+residual_Fy_N = Ay_N + Fy_N - beam_weight_N
+residual_MA_Nm = MA_Nm + L_M * Fy_N - beam_cg_x_m * beam_weight_N
+
+assert isclose(theta_deg, 53.13010235415598, abs_tol=1e-10)
+assert isclose(Fx_N, 60.0, abs_tol=1e-12)
+assert isclose(Fy_N, -80.0, abs_tol=1e-12)
+assert isclose(beam_weight_N, 10.0, abs_tol=1e-12)
+assert isclose(Ax_N, -60.0, abs_tol=1e-12)
+assert isclose(Ay_N, 90.0, abs_tol=1e-12)
+assert isclose(MA_Nm, 51.0, abs_tol=1e-12)
+assert isclose(horizontal_component_moment_Nm, 0.0, abs_tol=1e-12)
+assert isclose(residual_Fx_N, 0.0, abs_tol=1e-12)
+assert isclose(residual_Fy_N, 0.0, abs_tol=1e-12)
+assert isclose(residual_MA_Nm, 0.0, abs_tol=1e-12)
+
+print(f"Force angle = {theta_deg:.4f} degrees below +x")
+print(f"Applied force = {FORCE_N:.1f} N down-right")
+print(f"Fx = {Fx_N:.1f} N right; Fy = {abs(Fy_N):.1f} N down")
+print(f"Beam self-weight = {beam_weight_N:.1f} N at x = {beam_cg_x_m:.2f} m")
+print(f"Fixed support Ax = {Ax_N:.1f} N (left)")
+print(f"Fixed support Ay = {Ay_N:.1f} N (up)")
+print(f"Fixed support MA = {MA_Nm:.2f} N·m (counterclockwise)")
+print("Horizontal force component moment about A = 0 N·m (line of action passes through A)")
+print(f"Equilibrium residuals: Fx={residual_Fx_N:.1f} N, Fy={residual_Fy_N:.1f} N, MA={residual_MA_Nm:.1f} N·m")
 ````
 
 ---
