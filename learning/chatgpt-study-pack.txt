@@ -7,15 +7,15 @@
 缺少运行工具时明确未运行；不能写 GitHub 时输出待回写更新。
 图的链接供在线查看；离线时使用讲义中的对象、尺寸、方向和方程重画受力图。
 权威进度：https://github.com/Zakariyya/cad-teacher/blob/main/learning/progress.md
-源文件集合 SHA-256：db415547af5e508ec6bd11239fda7db76f4cfdf0f2508805443ae7aefcff42eb
+源文件集合 SHA-256：96487ba49debd1aa000c14b94d6ed2164d3bf3bc619b59d3c0d232c6ed4c5b11
 
 ## 内嵌源文件与 SHA-256
 - prompts/project-instructions.md: 9e7a26c101a74e5d0cfadf68bdd67be58377479997d4bc4204d05d138c636e62
 - prompts/original-request.md: 4d535be9f4d1aae136b26363083351dec3195ab48c1162de5fe98d8e3096e32b
 - prompts/resume-learning.md: 02a360bd3294a5f9ca8aae44a515339fc56751160721aa109e29ff53aad52739
-- learning/progress.md: 79dbd4cb62a3a1a529450451e4eaf69cbd0bff89daddb6516998c927d9640bf5
-- curriculum/roadmap.md: 5242f4dc6ea41f1ad93d2689a3bd3170e8951e2166bcbdc7ea33529b9e8c43ba
-- curriculum/lessons.json: bfe844d59db19c4d9b3603c2f0f847638d0baa3beb0e3f7cb8a6be1f88dafb8a
+- learning/progress.md: 66c9663998c5343985766f410346d1a0cfe0fc80edbeee961d35f8c565e1e9c9
+- curriculum/roadmap.md: eca4565478c8aae83eb0e9e5bb62ec9f0375c0d2ee257f4aaed5a9767246847e
+- curriculum/lessons.json: b083ace0668cd838b5c33265129968f63dd506459e155d5677bf6fc4a5f3033e
 - learning/resources.md: aa8eff0171f262007dd3edc34e61af7df7c15622ae93c7336eefd7d61dde8340
 - learning/lesson-01.md: 620de72d45b8c5585e5d954791652e930531610646fa355fe56cd156124500f8
 - learning/lesson-01-review.md: 5f4500b5ccc55a6693089773f451704ffcadedd02a9a6de77eb7c85cd7f8b400
@@ -25,6 +25,8 @@
 - learning/lesson-02.py: 9149b480153d3c9e01706c1d3c0915fdd79fe38e54e1caaf5e1eb605fb963d08
 - learning/lesson-02-review.md: 66dc106644b64e536a27eb566586431df46c74523ae30f61b707fbc38fcee4cb
 - learning/lesson-02-answer-key.json: efe6bee5ffcd00da329dd8acd854b05bb865fb49b27bbf3f38d87eee62cf2331
+- learning/lesson-03.md: 542b9ecbabfa843b216395d616f1243042464dca941d64d4a52478c4366bb4d6
+- learning/lesson-03.py: 9c0f24b14501015d0303a76549e5d855fbb7fabdd94d116d3a3c7ac7480d2cac
 - docs/teaching-standard.md: e157413e81d7690a9f74ac6c20bddead64a91c2cd65ce7a10e946eed4f92137a
 - resources/skills.md: 064e88f7e35386749944f62aa5be4b7abb7944e8674a78f3c1b61126d1e6e40a
 - resources/THIRD_PARTY_NOTICES.md: 8c6c90522dbf943913d3accb4c7a667eda3e88914391e0850f52c101ad86c8fc
@@ -130,7 +132,7 @@
 
 # 学习进度
 
-最后更新：2026-11-16。
+最后更新：2026-11-17。
 
 本文件是个人学习状态的唯一入口。网页上传包是本文件的快照；原始需求见 [最初提示词](https://github.com/Zakariyya/cad-teacher/blob/main/prompts/original-request.md)，长期路线见 [课程路线](https://github.com/Zakariyya/cad-teacher/blob/main/curriculum/roadmap.md)。
 
@@ -146,17 +148,17 @@
 | --- | --- | --- |
 | 01 力、力矩、固定支撑反力与受力分析 | 已完成本单元讲解、两题作答与概念追问 | [作答与反馈](https://github.com/Zakariyya/cad-teacher/blob/main/learning/lesson-01-review.md) |
 | 02 支架自重与重心 | **已完成：讲解、概念检查、基础题、工程应用题与力矩物理解释；数值正确，力矩单位已纠正** | [讲义](https://github.com/Zakariyya/cad-teacher/blob/main/learning/lesson-02.md) · [作答反馈](https://github.com/Zakariyya/cad-teacher/blob/main/learning/lesson-02-review.md) · [验证记录](https://github.com/Zakariyya/cad-teacher/blob/main/learning/lesson-02-verification.md) |
-| 03 多载荷平衡及后续阶段 | 尚未开始 | [课程路线](https://github.com/Zakariyya/cad-teacher/blob/main/curriculum/roadmap.md) |
+| 03 多载荷平衡 | **讲义、示例与练习已发布；等待作答** | [讲义](https://github.com/Zakariyya/cad-teacher/blob/main/learning/lesson-03.md) · [受力图](https://github.com/Zakariyya/cad-teacher/blob/main/learning/lesson-03-fbd.svg) · [示例脚本](https://github.com/Zakariyya/cad-teacher/blob/main/learning/lesson-03.py) |
 
 ## 下次如何继续
 
-第 02 课已正式完成。数值计算全部正确；基础题的力矩单位最初写成 N，已纠正为 N·m；工程题的方向未主动标注，已反馈。学习者能够用整体重心解释相机外移会增大总力矩，导师进一步解释了力矩与力臂成正比的做功推导。下一步进入第 03 课「多载荷平衡」。
+第 02 课已正式完成。数值计算全部正确；基础题的力矩单位最初写成 N，已纠正为 N·m；工程题的方向未主动标注，已反馈。学习者能够用整体重心解释相机外移会增大总力矩，导师进一步解释了力矩与力臂成正比的做功推导。第三课「多载荷平衡」讲义、示例和两道练习已发布，等待学习者作答。
 
-持续巩固：第一课和第二课都要区分力 N 与力矩 N·m；计算结果主动注明向上/向下、顺时针/逆时针。第二课已能理解力臂与力矩的正比关系。
+持续巩固：第一课和第二课都要区分力 N 与力矩 N·m；计算结果主动注明向上/向下、顺时针/逆时针。第二课已能理解力臂与力矩的正比关系。第三课重点练习逐项累加多个载荷的力和力矩，继续主动标注方向。
 
 ## 验证与边界
 
-第一课的 Python 静力核算已运行；第二课公开示例也已运行，平衡残差为零，做了分段自重力矩与零质量极限核对。两课均不代表真实 CAD、FEA 或实物验证。
+第一课和第二课的 Python 静力核算已运行。第三课示例脚本已在本次会话实际执行：总重 28 N、固定端反力矩 12.9 N·m、整体重心 0.4607 m，平衡残差为零。当前运行环境未安装 Pint，第三课单位由 SI 量纲人工核对。所有课程均不代表真实 CAD、FEA 或实物验证。
 
 ---
 
@@ -164,7 +166,7 @@
 
 # 从基础到独立机器人开发的课程路线
 
-这是逐课编写的培养路线，不是已完成的教材。当前个人状态只在 [学习进度](https://github.com/Zakariyya/cad-teacher/blob/main/learning/progress.md) 维护；第一课与第二课已完成，其余单元尚未编写。一个条目可按学习反馈拆成多个小课，数学在需要时补齐。
+这是逐课编写的培养路线，不是已完成的教材。当前个人状态只在 [学习进度](https://github.com/Zakariyya/cad-teacher/blob/main/learning/progress.md) 维护；第一课与第二课已完成；第三课「多载荷平衡」讲义与练习已发布，正在学习；其余单元尚未编写。一个条目可按学习反馈拆成多个小课，数学在需要时补齐。
 
 | 阶段 | 知识单元（按顺序） | 机器人任务 | 阶段能力检查 |
 | --- | --- | --- | --- |
@@ -222,6 +224,13 @@
       "feedback": "learning/lesson-02-review.md",
       "example_script": "learning/lesson-02.py",
       "answer_key": "learning/lesson-02-answer-key.json"
+    },
+    {
+      "id": "03",
+      "title": "多载荷平衡",
+      "lesson": "learning/lesson-03.md",
+      "feedback_published": false,
+      "example_script": "learning/lesson-03.py"
     }
   ]
 }
@@ -887,6 +896,277 @@ if __name__ == '__main__':
     }
   }
 }
+````
+
+---
+
+## 源文件：learning/lesson-03.md
+
+# 第 03 单元：多载荷平衡
+
+状态：**讲解、示例与练习已发布；等待学习者作答**（2026-11-17）。不要提前公开练习答案。完成后记录原答与逐题反馈。
+
+## 学习目标与前置知识
+
+承接 [第一课：固定支撑受力分析](https://github.com/Zakariyya/cad-teacher/blob/main/learning/lesson-01.md) 与 [第二课：支架自重与重心](https://github.com/Zakariyya/cad-teacher/blob/main/learning/lesson-02.md)。学完应能：
+
+1. 把一个结构上的多个载荷逐个列出来，不漏算、不重复计算。
+2. 分别计算每个载荷对同一参考点的力矩，再按方向带符号相加。
+3. 用 ΣFₓ = 0、ΣFᵧ = 0、ΣM = 0 检查二维刚体静力平衡。
+4. 求出固定端反力，并能解释为什么移动某一个载荷会改变反力矩，却不一定改变竖直反力。
+
+## 教学资源
+
+本课实际读取了仓库内固定版本的：
+
+- [mechanics-visuals/SKILL.md](https://github.com/Zakariyya/cad-teacher/blob/main/resources/vendor/baratilab/skills/mechanics-visuals/SKILL.md)：要求先明确几何、载荷、支撑和符号约定；受力图应隔离物体、区分外载与反力，并核对力和力矩平衡。
+- [FBD 图示规范](https://github.com/Zakariyya/cad-teacher/blob/main/resources/vendor/baratilab/skills/mechanics-visuals/references/fbd_style.md)：固定端用 Aₓ、Aᵧ、Mₐ 表示反力；外载与反力使用不同视觉标记；每个箭头标注作用位置。
+- [worked-problem-generator/SKILL.md](https://github.com/Zakariyya/cad-teacher/blob/main/resources/vendor/baratilab/skills/worked-problem-generator/SKILL.md) 与 [习题模板](https://github.com/Zakariyya/cad-teacher/blob/main/resources/vendor/baratilab/skills/worked-problem-generator/references/problem_template.md)：先核算例题，再给出已知、求解目标、假设和分层练习。
+
+本课的自由体图按上述规范绘制。FBD 脚本没有直接生成这张图；数值核算使用本课附带的 Python 标准库脚本。
+
+## 1. 为什么多个载荷必须一起计算？
+
+想象一根固定在墙上的相机支架：
+
+- 支架本身有重量；
+- 相机有重量；
+- 相机旁边还有一个传感器；
+- 以后还可能夹着工件。
+
+每个重量都会向下拉支架。它们会共同造成两种效果：
+
+- **向下的总力**：所有向下的重量加在一起；
+- **绕固定端转动的趋势**：每个重量按自己的位置产生力矩，再把这些力矩相加。
+
+这里有一个关键点：**力可以直接按方向相加；力矩必须连同各自的力臂一起计算，不能只把力加起来就随便乘一个距离。**
+
+## 2. 先明确研究对象与模型
+
+本课例题只研究支架本体。相机和传感器不画成独立刚体，而是把它们对支架的作用等效为各自位置处的向下重力。
+
+已知：
+
+- 水平支架左端 A 与墙体理想固定；
+- 支架长度 L = 0.60 m，质量 mᵦ = 0.8 kg，假设均匀；
+- 相机质量 m𝚌 = 1.5 kg，重心距 A 为 0.50 m；
+- 传感器质量 mₛ = 0.5 kg，重心距 A 为 0.60 m；
+- 取 g = 10 m/s²，结构静止。
+
+假设与边界：
+
+- 支架足够刚，处于静止状态，做二维平面静力分析；
+- 支架均匀，因此支架重心在中点 0.30 m；
+- 所有重力竖直向下，没有水平外载；
+- 忽略线缆拉力、紧固件自重、弹性变形、振动、冲击和加速度；
+- 固定端能够提供水平反力、竖直反力和反力矩。
+
+这只是理想刚体静力估算，不是支架强度或安全性验收。
+
+## 3. 受力图：先把所有力画全
+
+![多载荷支架自由体图](https://github.com/Zakariyya/cad-teacher/blob/main/learning/lesson-03-fbd.svg)
+
+约定：
+
+- 向右为 +x，向上为 +y；
+- 逆时针力矩为正，顺时针力矩为负；
+- Aₓ、Aᵧ 是固定端反力，Mₐ 是固定端反力矩；
+- Wᵦ、W𝚌、Wₛ 分别是支架、相机、传感器的重力。
+
+**为什么 A 点有三个反力未知量？** 因为理想固定端既阻止水平移动，也阻止竖直移动，还阻止支架转动，所以要用 Aₓ、Aᵧ、Mₐ 描述它的约束作用。这是第一课学过的固定支撑模型。
+
+## 4. 把每个载荷变成力和力矩
+
+先算重量：
+
+**W = m × g**
+
+| 载荷 | 质量 | 重力 | 作用位置 |
+|---|---:|---:|---:|
+| 支架自重 | 0.8 kg | 8 N，向下 | 0.30 m |
+| 相机 | 1.5 kg | 15 N，向下 | 0.50 m |
+| 传感器 | 0.5 kg | 5 N，向下 | 0.60 m |
+
+对于本题，支架水平、重力竖直，因此每个重力的垂直力臂就是它到 A 点的水平距离。
+
+**M = F × d**
+
+逐个计算对 A 点的力矩：
+
+| 载荷 | 计算 | 力矩方向 |
+|---|---:|---|
+| 支架自重 | 8 × 0.30 = 2.4 N·m | 顺时针 |
+| 相机 | 15 × 0.50 = 7.5 N·m | 顺时针 |
+| 传感器 | 5 × 0.60 = 3.0 N·m | 顺时针 |
+
+因此外载荷产生的顺时针力矩总和为 2.4 + 7.5 + 3.0 = 12.9 N·m。
+
+注意：**三个力的大小不能直接相加后，再分别乘三个不同的距离。** 必须逐个求力矩再求和；或者先求出整体重心，再把总重力等效作用在整体重心上。这两种算法结果相同，不能重复计算。
+
+## 5. 写出三个平衡条件
+
+静止的二维刚体必须同时满足：
+
+- 水平方向不平移：ΣFₓ = 0
+- 竖直方向不平移：ΣFᵧ = 0
+- 不绕平面内任何点转动：ΣM = 0
+
+本题选择 A 点作为取矩点，并约定逆时针为正。
+
+### 第一步：水平方向
+
+没有水平外载，所以：
+
+**ΣFₓ = Aₓ = 0**
+
+### 第二步：竖直方向
+
+向上为正，三个重力向下：
+
+**ΣFᵧ = Aᵧ − 8 − 15 − 5 = 0**
+
+所以固定端需要提供向上的竖直反力，大小等于三个向下重量之和。
+
+### 第三步：绕 A 点的力矩
+
+三个重力都使支架顺时针转动，因此它们在方程中为负；固定端反力矩必须逆时针：
+
+**ΣMₐ = Mₐ − 8 × 0.30 − 15 × 0.50 − 5 × 0.60 = 0**
+
+因此：
+
+**Mₐ = 8 × 0.30 + 15 × 0.50 + 5 × 0.60 = 12.9 N·m**
+
+### 为什么选 A 点取矩？
+
+Aₓ 和 Aᵧ 的作用线都经过 A 点，对 A 的力臂为零，因此它们不会出现在绕 A 点的力矩方程里。这样就能先求出固定端需要抵抗的转动效果。
+
+**取矩点可以选其他位置；静力平衡时，绕任意点的合力矩都为零。** 初学时优先选择未知反力通过的点，通常最省事。
+
+## 6. 用整体重心再理解一次
+
+这和第二课直接衔接。三个重力都在同一个均匀重力场中，因此可以把它们等效为一个总重力，作用在整体重心：
+
+**xＧ = (8 × 0.30 + 15 × 0.50 + 5 × 0.60) ÷ (8 + 15 + 5)**
+
+**xＧ ≈ 0.4607 m**
+
+总重力为三个重量之和，作用在距 A 约 0.4607 m 的位置。用总重力乘这个位置，会得到与逐个求力矩相同的结果。
+
+两种方法怎么选：
+
+- **逐个求力矩**：更适合载荷多、位置不同、方向可能不同的结构，最不容易漏项。
+- **整体重心法**：适合多个平行重力载荷，能帮助你理解系统整体的重心位置。
+
+## 7. 例题核算与验证边界
+
+本课附带 [Python 示例脚本](https://github.com/Zakariyya/cad-teacher/blob/main/learning/lesson-03.py)。本次已实际执行同样的数值核算，得到：
+
+- 三个载荷分别产生 2.40、7.50、3.00 N·m 的顺时针力矩；
+- 总向下重量为 28.0 N；
+- 等效整体重心距 A 约 0.4607 m；
+- 平衡方程残差为 0 N 和 0 N·m。
+
+当前执行环境没有安装 Pint，因此本次使用 Python 数值计算，并人工核对 kg、N、m、N·m 的量纲；没有声称做过自动单位库检查。
+
+验证边界：这是计算一致性核对，不是 CAD 几何检查、有限元分析（FEA）、结构强度验证或实物加载试验。真实支架还要考虑材料、截面、孔位、连接、挠度、冲击和安全系数。
+
+## 8. 练习：请先自己作答
+
+请像前两课一样，写出公式、代入过程、数值、单位和方向。暂时不要只报最终数字。
+
+### 基础题：一根支架上有两个额外载荷
+
+水平支架左端 A 固定，长度 L = 0.50 m，支架质量 mᵦ = 0.6 kg，假设均匀。另有两个竖直向下的载荷：
+
+- 载荷 P1：10 N，作用位置距 A 为 0.20 m；
+- 载荷 P2：8 N，作用位置距 A 为 0.45 m。
+
+取 g = 10 m/s²，支架静止。
+
+请回答：
+
+1. 支架自身重量是多少？作用点在哪里？
+2. P1、P2 和支架自重分别对 A 点产生多大的力矩？方向是什么？
+3. 固定端 A 需要提供多大的竖直反力和反力矩？方向是什么？
+4. 写出 ΣFᵧ = 0 与 ΣMₐ = 0 检查平衡。
+
+### 工程应用题：机械臂末端安装多个部件
+
+假设一根水平机械臂连杆左端 A 固定，长度 0.80 m，自身质量 1.2 kg，质量均匀。连杆上安装：
+
+- 相机：质量 2.0 kg，重心距 A 为 0.70 m；
+- 传感器：质量 0.5 kg，重心距 A 为 0.25 m；
+- 末端夹持工件：质量 1.0 kg，重心距 A 为 0.80 m。
+
+取 g = 10 m/s²，所有重力竖直向下，连杆静止，忽略其他载荷。
+
+请回答：
+
+1. 列出支架、相机、传感器、工件各自的重量和作用位置。
+2. 计算固定端 A 的竖直反力和反力矩，并注明方向。
+3. 哪个部件对 A 点产生的力矩最大？为什么不能只按质量大小判断？
+4. 如果相机从 0.70 m 移到 0.40 m，固定端反力矩会变化多少？竖直反力会不会变化？解释原因。
+
+## 本课学完后，你应该具备什么能力？
+
+能把支架上多个部件的重量逐个列出，知道每个重量在哪里作用，分别计算力和力矩，最后用三个平衡条件检查结果。这是后续学习斜向载荷、支撑类型、机械臂关节力矩和结构强度的基础。
+
+**本课仍然只分析理想固定端、二维、静止、竖直载荷。** 斜向力、铰支撑、滚动支撑和摩擦会在后续单元分别讲，不在这道练习里偷偷引入。
+
+---
+
+## 源文件：learning/lesson-03.py
+
+````python
+"""Lesson 03: multi-load static equilibrium worked-example check.
+
+Educational model only: a horizontal rigid cantilever, fixed at A, with
+three vertical downward gravity loads. SI units; CCW support moment is positive.
+"""
+from math import isclose
+
+G_M_S2 = 10.0
+loads = [
+    {"name": "bracket self-weight", "mass_kg": 0.8, "x_m": 0.30},
+    {"name": "camera", "mass_kg": 1.5, "x_m": 0.50},
+    {"name": "sensor", "mass_kg": 0.5, "x_m": 0.60},
+]
+
+for load in loads:
+    load["weight_N"] = load["mass_kg"] * G_M_S2
+    load["clockwise_moment_Nm"] = load["weight_N"] * load["x_m"]
+
+total_downward_N = sum(load["weight_N"] for load in loads)
+total_clockwise_Nm = sum(load["clockwise_moment_Nm"] for load in loads)
+
+# Equilibrium: Ay balances all downward loads; MA balances all clockwise moments.
+Ay_N = total_downward_N
+MA_Nm = total_clockwise_Nm
+x_combined_cg_m = total_clockwise_Nm / total_downward_N
+
+residual_Fy_N = Ay_N - total_downward_N
+residual_MA_Nm = MA_Nm - total_clockwise_Nm
+
+assert isclose(total_downward_N, 28.0, abs_tol=1e-12)
+assert isclose(total_clockwise_Nm, 12.9, abs_tol=1e-12)
+assert isclose(x_combined_cg_m, 0.4607142857142857, abs_tol=1e-12)
+assert isclose(residual_Fy_N, 0.0, abs_tol=1e-12)
+assert isclose(residual_MA_Nm, 0.0, abs_tol=1e-12)
+
+print("Loads:")
+for load in loads:
+    print(
+        f"{load['name']}: W={load['weight_N']:.1f} N, "
+        f"x={load['x_m']:.2f} m, "
+        f"M_A={load['clockwise_moment_Nm']:.2f} N·m clockwise"
+    )
+print(f"Total downward force = {total_downward_N:.1f} N")
+print(f"Fixed support reaction Ay = {Ay_N:.1f} N upward")
+print(f"Fixed support reaction moment MA = {MA_Nm:.2f} N·m counterclockwise")
+print(f"Equivalent combined CG x_G = {x_combined_cg_m:.4f} m from A")
+print(f"Equilibrium residuals: ΣFy={residual_Fy_N:.1f} N, ΣM_A={residual_MA_Nm:.1f} N·m")
 ````
 
 ---
