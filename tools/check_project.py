@@ -66,8 +66,10 @@ def main():
     if any(abs(value) > 1e-12 for value in submitted['equilibrium_residuals'].values()):
         raise SystemExit('FAIL: 第二课平衡残差')
     subprocess.run([sys.executable, 'learning/lesson-02.py'], cwd=ROOT, check=True)
+    subprocess.run([sys.executable, 'learning/lesson-03.py'], cwd=ROOT, check=True)
     ET.parse(ROOT / 'learning/lesson-01-fbd.svg')
     ET.parse(ROOT / 'learning/lesson-02-fbd.svg')
+    ET.parse(ROOT / 'learning/lesson-03-fbd.svg')
     subprocess.run([sys.executable, 'tools/build_study_pack.py', '--check'], cwd=ROOT, check=True)
     print(f'PASS: {checked} local links; {sum(len(r["skills"]) for r in data["repositories"])} pinned Skill URLs; '
           f'{len(data["snapshots"])} exact upstream snapshots; lessons 01/02 arithmetic and lesson 03 example; SVG; current upload pack')
@@ -76,4 +78,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-\n

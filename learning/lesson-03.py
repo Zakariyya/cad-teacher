@@ -45,4 +45,3 @@ print(f"Fixed support reaction Ay = {Ay_N:.1f} N upward")
 print(f"Fixed support reaction moment MA = {MA_Nm:.2f} N·m counterclockwise")
 print(f"Equivalent combined CG x_G = {x_combined_cg_m:.4f} m from A")
 print(f"Equilibrium residuals: ΣFy={residual_Fy_N:.1f} N, ΣM_A={residual_MA_Nm:.1f} N·m")
-\n

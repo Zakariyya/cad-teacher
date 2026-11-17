@@ -54,6 +54,7 @@ docs/          网页端指南、教学标准与维护设计
 ```bash
 python3 learning/lesson-01.py
 python3 learning/lesson-02.py
+python3 learning/lesson-03.py
 python3 tools/build_study_pack.py
 python3 tools/check_project.py
 ```
@@ -77,4 +78,3 @@ cd cad-teacher
 每课保留原答和纠正，更新 `learning/progress.md`，重建上传包后用中文提交。已有仓库可运行 `bash publish-github.sh` 检查、提交本教材文件并推送，不创建仓库、不强推。上传包也应替换为最新版本。
 
 [第三方许可声明](resources/THIRD_PARTY_NOTICES.md)。不提交虚拟环境、缓存、凭据或无关临时文件。工程判断区分几何验证、力学估算、仿真验证和实物验证。
-\n
